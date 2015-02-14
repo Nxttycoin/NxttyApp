@@ -1,0 +1,77 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* ic_launcher-web.png
+* proguard.cfg
+* proguard\
+* proguard\dump.txt
+* proguard\mapping.txt
+* proguard\seeds.txt
+* proguard\usage.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:19.1.0
+gcm.jar => com.google.android.gms:play-services:+
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* assets\ => app\src\main\assets\
+* libs\android-async-http-1.4.3.jar => app\libs\android-async-http-1.4.3.jar
+* libs\aniways-V2.2.jar => app\libs\aniways-V2.2.jar
+* libs\AniwaysGoogleAnalytics.jar => app\libs\AniwaysGoogleAnalytics.jar
+* libs\AniwaysGson.jar => app\libs\AniwaysGson.jar
+* libs\AniwaysSupport.jar => app\libs\AniwaysSupport.jar
+* libs\apache-commons-codec-1.4.jar => app\libs\apache-commons-codec-1.4.jar
+* libs\apache-mime4j-0.6.jar => app\libs\apache-mime4j-0.6.jar
+* libs\armeabi-v7a\librsjni.so => app\src\main\jniLibs\armeabi-v7a\librsjni.so
+* libs\armeabi-v7a\libRSSupport.so => app\src\main\jniLibs\armeabi-v7a\libRSSupport.so
+* libs\armeabi-v7a\libsinch-android-rtc.so => app\src\main\jniLibs\armeabi-v7a\libsinch-android-rtc.so
+* libs\armeabi\librsjni.so => app\src\main\jniLibs\armeabi\librsjni.so
+* libs\armeabi\libRSSupport.so => app\src\main\jniLibs\armeabi\libRSSupport.so
+* libs\armeabi\libsinch-android-rtc.so => app\src\main\jniLibs\armeabi\libsinch-android-rtc.so
+* libs\commons-lang3-3.3.2.jar => app\libs\commons-lang3-3.3.2.jar
+* libs\FlurryAnalytics-4.2.0.jar => app\libs\FlurryAnalytics-4.2.0.jar
+* libs\httpmime-4.1.2.jar => app\libs\httpmime-4.1.2.jar
+* libs\mips\librsjni.so => app\src\main\jniLibs\mips\librsjni.so
+* libs\mips\libRSSupport.so => app\src\main\jniLibs\mips\libRSSupport.so
+* libs\renderscript-v8.jar => app\libs\renderscript-v8.jar
+* libs\sinch-android-rtc-3.2.6.jar => app\libs\sinch-android-rtc-3.2.6.jar
+* libs\x86\librsjni.so => app\src\main\jniLibs\x86\librsjni.so
+* libs\x86\libRSSupport.so => app\src\main\jniLibs\x86\libRSSupport.so
+* proguard-project.txt => app\proguard-project.txt
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

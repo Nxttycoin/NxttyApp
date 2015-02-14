@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- From: file:/C:/NXTAPP_Feb_032/app/src/main/res/values-ar/strings.xml -->
+    <eat-comment/>
+    <string-array name="options_with_default">
+        <item>كاميرا</item>
+        <item>معرض</item>
+        <item>استعادة الخلفية الافتراضية</item>
+    </string-array>
+    <string-array name="share_link_option">
+        <item>فتح</item>
+        <item>مشاركة</item>
+        <item>قص</item>
+    </string-array>
+    <string-array name="uploadpicoption">
+        <item>كاميرا</item>
+        <item>معرض</item>
+    </string-array>
+    <string name="Search_group_text"> البحث عن طريق الإسم المستعار </string>
+    <!-- From: file:/C:/NXTAPP_Feb_032/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/res/values-ar/values.xml -->
+    <eat-comment/>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"التنقل إلى الشاشة الرئيسية"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s، %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s، %2$s، %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"التنقل إلى أعلى"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"خيارات إضافية"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"تم"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"عرض الكل"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"اختيار تطبيق"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"محو طلب البحث"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"طلب البحث"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"بحث"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"إرسال طلب البحث"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"البحث الصوتي"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"مشاركة مع"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"‏مشاركة مع %s"</string>
+    <!-- From: file:/C:/NXTAPP_Feb_032/app/src/main/res/values-ar/strings.xml -->
+    <eat-comment/>
+    <string name="about">عن</string>
+    <string name="accept">موافقة </string>
+    <string name="action_settings">الإعدادات</string>
+    <string name="add_chats">إضافة دردشة</string>
+    <string name="add_comment">إضافة تعليق</string>
+    <string name="add_friends">يرجى إضافة أصدقاء</string>
+    <string name="add_topic"> أضف موضوع </string>
+    <string name="alias_name">إسم مستعار</string>
+    <string name="already_tipped">لقد قمت بإعطاء بقشيش لهذا المنشور</string>
+    <string name="already_tipped_comment">لقد قمت بإعطاء بقشيش لهذا التعليق</string>
+    <string name="already_tipped_comment_success">لقد قمت بنجاح بإعطاء بقشيش لهذا التعليق</string>
+    <string name="already_tipped_success">لقد قمت بنجاح بإرسال بقشيش لهذا المنشور</string>
+    <string name="app_name"> Nxtty تطبيق </string>
+    <!-- From: file:/C:/NXTAPP_Feb_032/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/3.1.59/res/values-ar/strings.xml -->
+    <eat-comment/>
+    <string msgid="3983201110833868073" name="auth_client_needs_enabling_title">"يتطلب أحد التطبيقات تمكين خدمات Google Play."</string>
+    <string msgid="7999585836145154206" name="auth_client_needs_installation_title">"يتطلب أحد التطبيقات تثبيت خدمات Google Play."</string>
+    <string msgid="6488605506794595966" name="auth_client_needs_update_title">"يتطلب أحد التطبيقات تحديث خدمات Google Play."</string>
+    <string msgid="3635065018897986478" name="auth_client_play_services_err_notification_msg">"خطأ في خدمات Google Play"</string>
+    <string msgid="6304135633531965756" name="auth_client_requested_by_msg">"تم الطلب عن طريق <ns1:g id="APP_NAME">%1$s</ns1:g>"</string>
+    <string msgid="2534454398764507874" name="auth_client_using_bad_version_title">"يحاول أحد التطبيقات استخدام إصدار غير صالح من خدمات Google Play."</string>
+    <!-- From: file:/C:/NXTAPP_Feb_032/app/src/main/res/values-ar/strings.xml -->
+    <eat-comment/>
+    <string name="automatic_logout">تسجيل الخروج التلقائي</string>
+    <string name="avtar_use"> استخدم صورة رمزية في الدردشة المفتوحة </string>
+    <string name="back">العودة</string>
+    <string name="block">منع</string>
+    <string name="block_list">قائمة الحظر</string>
+    <string name="cancel">إلغاء</string>
+    <string name="cancelUpdate"> هل تريد إلغاء التحديث؟</string>
+    <string name="cant_edit_image">لا يمكن تحرير الصورة</string>
+    <string name="changeBg"> تغيير الخلفية </string>
+    <string name="chat">دردشة</string>
+    <string name="choose_file">إختيار ملف</string>
+    <string name="city">: المدينة </string>
+    <string name="city_of_birth">مدينة الميلاد...</string>
+    <string name="code_incorrect"> يرجى إدخال رمز إحالة ساري المفعول</string>
+    <string name="code_incorrect_"> يرجى إدخال رمز إحالة ساري المفعول</string>
+    <string name="code_no_longer"> لم يعد كود الإحالة صالحا أو انتهت مدة صلاحيته</string>
+    <string name="comments">تعليقات</string>
+    <!-- From: file:/C:/NXTAPP_Feb_032/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/3.1.59/res/values-ar/strings.xml -->
+    <eat-comment/>
+    <string msgid="4181637455539816337" name="common_google_play_services_enable_button">"تمكين خدمات Google Play"</string>
+    <string msgid="7627896071867667758" name="common_google_play_services_enable_text">"لن يعمل هذا التطبيق ما لم يتم تمكين خدمات Google Play."</string>
+    <string msgid="529078775174559253" name="common_google_play_services_enable_title">"تمكين خدمات Google Play"</string>
+    <string msgid="8515591849428043265" name="common_google_play_services_install_button">"الحصول على خدمات Google Play"</string>
+    <string msgid="8685301130651051380" name="common_google_play_services_install_text_phone">"لن يتم تشغيل هذا التطبيق بدون خدمات Google Play، والتي لا تتوفر في هاتفك."</string>
+    <string msgid="1589957570365247855" name="common_google_play_services_install_text_tablet">"لن يتم تشغيل هذا التطبيق بدون خدمات Google Play، والتي لا تتوفر في جهازك اللوحي."</string>
+    <string msgid="26645092511305524" name="common_google_play_services_install_title">"الحصول على خدمات Google Play"</string>
+    <string msgid="4762332809710093730" name="common_google_play_services_unknown_issue">"حدثت مشكلة غير معروفة في خدمات Google Play."</string>
+    <string msgid="3542578567569488671" name="common_google_play_services_unsupported_text">"خدمات Google Play التي تستجيب لها بعض تطبيقاتك لا تعمل على جهازك. يُرجى الاتصال بجهة التصنيع للحصول على المساعدة."</string>
+    <string msgid="6334768798839376943" name="common_google_play_services_unsupported_title">"خدمات Google Play"</string>
+    <string msgid="8932944190611227642" name="common_google_play_services_update_button">"تحديث"</string>
+    <string msgid="448354684997260580" name="common_google_play_services_update_text">"لن يتم تشغيل هذا التطبيق ما لم تحدِّث خدمات Google Play."</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">"تحديث خدمات Google Play"</string>
+    <string msgid="9071884888741449141" name="common_signin_button_text">"تسجيل الدخول"</string>
+    <string msgid="2429381841831957106" name="common_signin_button_text_long">"تسجيل الدخول باستخدام Google"</string>
+    <!-- From: file:/C:/NXTAPP_Feb_032/app/src/main/res/values-ar/strings.xml -->
+    <eat-comment/>
+    <string name="confirm_password">تأكيد كلمة المرور...</string>
+    <string name="contacts">جهات الاتصال </string>
+    <string name="conversations">المحادثات</string>
+    <string name="create_post">إنشاء منشور</string>
+    <string name="crop">اقتصاص</string>
+    <string name="delete"> حذف</string>
+    <string name="delete_message_after">إزالة الرسائل بعد</string>
+    <string name="discover">اكتشف</string>
+    <string name="do_not_ask_me_again">لا تسألني مرة أخرى</string>
+    <string name="edit">تحرير</string>
+    <string name="enter">أدخل</string>
+    <string name="enter_comment">يرجى إدخال تعليق</string>
+    <string name="enter_details">يرجى إدخال التفاصيل</string>
+    <string name="enter_email">أدخل البريد الإلكتروني</string>
+    <string name="enter_message">يرجى إدخال الرسالة</string>
+    <string name="enter_min_charecters"> أدخل الحد الأدنى للحروف </string>
+    <string name="enter_password"> كلمة المرور أدخل</string>
+    <string name="enter_title">يرجى إدخال عنوان</string>
+    <string name="enter_title_detail">يرجى إدخال عنوان آخر والتفاصيل</string>
+    <string name="find_user">إيجاد مستخدم</string>
+    <string name="find_users">إيجاد مستخدمين</string>
+    <string name="friend_req">طلبات الأصدقاء</string>
+    <string name="gender">الجنس</string>
+    <string name="group_search"> بحث عن مجموعة </string>
+    <string name="groups">مجموعات</string>
+    <string name="hello_world">!مرحبا بالعالم</string>
+    <string name="hide_post">إخفاء منشور</string>
+    <string name="hrs_ago"> منذ ساعات مضت</string>
+    <string name="image_invalid">الصورة غير صالحة، يرجى اختيار واحدة أخرى</string>
+    <string name="image_not_found">الصورة غير موجودة</string>
+    <string name="incomingNxttyClTxt"> مكالمة Nxtty الصوتية </string>
+    <string name="invite">دعوة </string>
+    <string name="invites">الدعوات</string>
+    <string name="invites_received"> تم استقبال الدعوات </string>
+    <string name="invites_sent"> تم إرسال الدعوات </string>
+    <string name="leader_board"> لوحة المتصدرين </string>
+    <string name="log_out">تسجيل الخروج</string>
+    <string name="min_ago">منذ دقائق مضت</string>
+    <string name="network_error">يرجى التحقق من اتصالك بالإنترنت.</string>
+    <string name="never">أبدا</string>
+    <string name="newsfeed">نشرة الأخبار </string>
+    <string name="no">لا</string>
+    <string name="notification">إشعار</string>
+    <string name="one_hr"> واحدة ساعة</string>
+    <string name="one_min"> دقيقه واحدة</string>
+    <string name="open_chat"> إفتح دردشه </string>
+    <string name="open_chat_settings">فتح إعدادات الدردشة</string>
+    <string name="outGoingNxttyClTxt">الإتصال بالمكالمة التالية </string>
+    <string name="password_backup">يرجى كتابة بيانات الدخول الخاصة بك والاحتفاظ بها، لأنه لا توجد استعادة لكلمة المرور</string>
+    <string name="please_wait">برجاء الإنتظار</string>
+    <string name="post">منشور</string>
+    <string name="post_comment">نشر تعليق</string>
+    <string name="post_detail">: تفاصيل المنشور  </string>
+    <string name="post_title">: عنوان المنشور </string>
+    <string name="private_chat"> دردشة خاصة </string>
+    <string name="profile_pic">صورة الملف الشخصي</string>
+    <string name="profile_pic_desc"> ( الصورة الرمزية غير مشفرة)</string>
+    <string name="reaction"> ردود الفعل </string>
+    <string name="referal_code"> كود الإحالة (اختياري)</string>
+    <string name="reject">رفض</string>
+    <string name="remember_me">تذكرني</string>
+    <string name="report_post">الإبلاغ عن منشور</string>
+    <string name="report_user">الإبلاغ عن مستخدم</string>
+    <string name="save"> حفظ </string>
+    <string name="save_changes">حفظ التغييرات</string>
+    <string name="save_image_sdcard"> هل تريد حفظ الصورة على بطاقة الذاكرة الرقمية المؤمنة؟</string>
+    <string name="school_univercity">المدرسة</string>
+    <string name="search_by_city">البحث بحسب المدينة</string>
+    <string name="search_by_school">البحث عن طريق المدرسة</string>
+    <string name="search_by_username">البحث عن طريق اسم المستخدم</string>
+    <string name="search_instuction"> اختر مجموعة </string>
+    <string name="search_instuction_edit_text"> يرجى إدخال كلمات البحث </string>
+    <string name="settings">الإعدادات</string>
+    <string name="seven_days"> أيام 7</string>
+    <string name="share_with_frnds">شارك هذا مع أصدقائك</string>
+    <string name="status_demo_text"> Nxtty مرحباً! أنا استخدم تطبيق </string>
+    <string name="subscribe">إشترك</string>
+    <string name="support">الدعم</string>
+    <string name="sure_add">هل أنت متاكد من الإضافة </string>
+    <string name="sure_block">هل انت متأكد من أنك تريد الحظر </string>
+    <string name="sure_delete">هل أنت متاكد من أنك تريد الحذف </string>
+    <string name="sure_delete_comment"> ؟ هل أنت متأكد من أنك تريد حذف هذا المنشور </string>
+    <string name="sure_delete_post"> ؟ هل أنت متاكد من إزالة هذا المنشور </string>
+    <string name="sure_edit">هل أنت متاكد من تحرير هذا المنشور ؟ </string>
+    <string name="sure_hide_post"> ؟ هل أنت متاكد من إخفاء هذا المنشور</string>
+    <string name="sure_report"> ؟  هل أنت متاكد من الإبلاغ عن هذا المنشور</string>
+    <string name="sure_report_user"> ؟ هل أنت متاكد من الإبلاغ عن هذا المستخدم </string>
+    <string name="sure_subscribe">هل أنت متأكد من أنك تريد الإشتراك </string>
+    <string name="sure_unblock">هل أنت متأكد من أنك تريد إلغاء الحظر </string>
+    <string name="sure_unsubscribe">هل انت متاكد من الإشتراك</string>
+    <string name="text_size">حجم النص</string>
+    <string name="thirty_days">يوم 30 </string>
+    <string name="tip"> نصيحة</string>
+    <string name="tips"> نصائح</string>
+    <string name="topic_category"> اختر فئة الموضوع </string>
+    <string name="topic_description"> وصف الموضوع </string>
+    <string name="topic_name"> إسم الموضوع </string>
+    <string name="twntyfour_hr">ساعة 24</string>
+    <string name="unblock">إزالة الحظر </string>
+    <string name="unsubscribe">إلغاء الإشتراك</string>
+    <string name="update_success">تم التحديث بنجاح</string>
+    <string name="user">:مستخدم</string>
+    <string name="wallet">المحفظة</string>
+    <string name="write_comment"> أكتب تعليقا</string>
+    <string name="write_story"> أكتب قصة</string>
+    <string name="yes">نعم</string>
+</resources>

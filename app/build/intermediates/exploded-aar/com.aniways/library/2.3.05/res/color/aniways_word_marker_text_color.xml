@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true" android:color="#F7F7F7"/>
+    <item android:color="#007AFF"/> <!-- default -->
+</selector>
+<!-- From: file:/C:/Android/Aniways/Android-SDK/res/color/aniways_word_marker_text_color.xml -->

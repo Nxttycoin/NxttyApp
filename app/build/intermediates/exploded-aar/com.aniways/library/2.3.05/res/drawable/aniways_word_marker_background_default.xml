@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+    <solid android:color="#009DA4AC" />
+    <corners android:radius="4dp" />
+</shape><!-- From: file:/C:/Android/Aniways/Android-SDK/res/drawable/aniways_word_marker_background_default.xml -->

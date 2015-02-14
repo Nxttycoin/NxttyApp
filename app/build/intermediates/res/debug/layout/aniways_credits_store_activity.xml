@@ -1,0 +1,188 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="7dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_marginTop="6dp"
+        android:background="@drawable/aniways_store_portrait_bg"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:scrollbars="horizontal|vertical"
+        android:visibility="visible" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/aniways_store_buy_icoins" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="11dp"
+            android:maxHeight="1dp"
+            android:minHeight="1px"
+            android:scaleType="fitXY"
+            android:src="@color/aniways_Black" />
+
+        <TextView
+            android:id="@+id/aniways_credits_store_credits_balance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/aniways_store_balance"
+            android:gravity="center"
+            android:text="1340"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/aniways_Black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(Your Balance)"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/aniways_Black"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="18dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/aniways_credits_store_100_coins_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@drawable/aniways_coins_100"
+                android:ellipsize="end"
+                android:gravity="bottom|center_horizontal"
+                android:lines="1"
+                android:maxEms="1"
+                android:minHeight="10dp"
+                android:minWidth="10dp"
+                android:text="3.8 $"
+                android:textColor="@color/aniways_Black" />
+
+            <Button
+                android:id="@+id/aniways_credits_store_250_coins_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_weight="1"
+                android:background="@drawable/aniways_coins_250"
+                android:ellipsize="end"
+                android:gravity="bottom|center_horizontal"
+                android:lines="1"
+                android:maxEms="1"
+                android:minHeight="10dp"
+                android:minWidth="10dp"
+                android:textColor="@color/aniways_Black" />
+
+            <Button
+                android:id="@+id/aniways_credits_store_500_coins_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@drawable/aniways_coins_500"
+                android:ellipsize="end"
+                android:gravity="bottom|center_horizontal"
+                android:lines="1"
+                android:maxEms="1"
+                android:minHeight="10dp"
+                android:minWidth="10dp"
+                android:textColor="@color/aniways_Black" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/aniways_credits_store_1000_coins_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@drawable/aniways_coins_1000"
+                android:ellipsize="end"
+                android:gravity="bottom|center_horizontal"
+                android:lines="1"
+                android:maxEms="1"
+                android:minHeight="10dp"
+                android:minWidth="10dp"
+                android:textColor="@color/aniways_Black" />
+
+            <Button
+                android:id="@+id/aniways_credits_store_2000_coins_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_weight="1"
+                android:background="@drawable/aniways_coins_2000"
+                android:ellipsize="end"
+                android:gravity="bottom|center_horizontal"
+                android:lines="1"
+                android:maxEms="1"
+                android:minHeight="10dp"
+                android:minWidth="10dp"
+                android:textColor="@color/aniways_Black" />
+
+            <Button
+                android:id="@+id/aniways_credits_store_3000_coins_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@drawable/aniways_coins_3000"
+                android:ellipsize="end"
+                android:gravity="bottom|center_horizontal"
+                android:lines="1"
+                android:maxEms="1"
+                android:minHeight="10dp"
+                android:minWidth="10dp"
+                android:textColor="@color/aniways_Black" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/aniways_credits_store_close_store_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|right"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/aniways_transparent"
+        android:contentDescription="Close"
+        android:src="@drawable/aniways_store_x" />
+
+</FrameLayout><!-- From: file:/C:/Android/Aniways/Android-SDK/res/layout/aniways_credits_store_activity.xml --><!-- From: file:/C:/NXTAPP_Feb_032/app/build/intermediates/exploded-aar/com.aniways/library/2.3.05/res/layout/aniways_credits_store_activity.xml -->

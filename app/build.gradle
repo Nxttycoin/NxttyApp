@@ -1,0 +1,54 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 21
+    buildToolsVersion "21.1.2"
+
+    defaultConfig {
+        multiDexEnabled true
+        applicationId "com.nxtty.main"
+        minSdkVersion 13
+        targetSdkVersion 21
+    }
+
+
+    dexOptions {
+        incremental true
+        preDexLibraries = false
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-project.txt'
+        }
+    }
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/NOTICE.txt'
+    }
+}
+
+dependencies {
+    compile 'com.android.support:support-v4:21.0.3'
+    compile 'com.google.android.gms:play-services:3.1.+'
+    compile 'com.specyci:residemenu:1.6+'
+    compile 'com.edmodo:cropper:1.0.1'
+    compile('org.apache.httpcomponents:httpmime:4.3.2') {
+        exclude module: 'httpclient'
+    }
+    compile 'org.apache.httpcomponents:httpclient-android:4.3.5.1'
+    compile 'com.loopj.android:android-async-http:1.4.5'
+    compile 'org.apache.james:apache-mime4j:0.7.2'
+    compile 'commons-codec:commons-codec:1.10'
+    compile 'org.apache.commons:commons-lang3:3.3.2'
+    compile 'com.nostra13.universalimageloader:universal-image-loader:1.9.3'
+    compile 'com.aniways:library:2.3.05'
+    compile files('libs/AniwaysGson.jar')
+    compile files('libs/AniwaysSupport.jar')
+    compile files('libs/FlurryAnalytics-4.2.0.jar')
+    compile files('libs/renderscript-v8.jar')
+    compile files('libs/sinch-android-rtc-3.2.6.jar')
+}

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="wrap_content"
+              android:layout_height="@dimen/aniways_asset_toast_height"
+              android:background="@drawable/aniways_toast_background"
+              android:paddingLeft="@dimen/aniways_asset_toast_corner_radius"
+              android:paddingRight="@dimen/aniways_asset_toast_corner_radius"
+              android:paddingStart="@dimen/aniways_asset_toast_corner_radius"
+              android:paddingEnd="@dimen/aniways_asset_toast_corner_radius">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+        <ImageView
+            android:id="@+id/aniways_asset_toast_icon"
+            android:layout_width="@dimen/aniways_asset_toast_icon_size"
+            android:layout_height="@dimen/aniways_asset_toast_icon_size"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="5dp"
+            android:layout_marginEnd="5dp"/>
+
+        <TextView
+            android:id="@+id/aniways_asset_toast_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/Aniways.Toast.Text"
+            android:layout_gravity="center_vertical"/>
+    </LinearLayout>
+</LinearLayout><!-- From: file:/C:/Android/Aniways/Android-SDK/res/layout/aniways_asset_toast.xml -->

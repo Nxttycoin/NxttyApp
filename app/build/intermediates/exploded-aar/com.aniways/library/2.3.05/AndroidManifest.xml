@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.aniways"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="com.android.vending.BILLING" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application android:largeHeap="true" >
+        <activity
+            android:name="com.aniways.billing.AniwaysCreditsStoreActivity"
+            android:launchMode="singleTop"
+            android:theme="@style/Theme.Aniways.Transparent" />
+
+        <service
+            android:name="com.aniways.service.AniwaysIntentService"
+            android:process=":AniwaysService" />
+        <service
+            android:name="com.aniways.analytics.service.AniwaysAnalyticsService"
+            android:process=":AniwaysService" />
+
+        <receiver android:name="com.aniways.service.AlarmReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.aniways.settings.AniwaysSettingsActivity"
+            android:label="@string/title_activity_aniways_settings" >
+        </activity>
+    </application>
+
+</manifest>

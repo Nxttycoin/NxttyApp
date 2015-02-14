@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <com.nxtty.lib.imagezoom.ImageViewTouch
+        android:id="@+id/iv_largeImage"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+    <!-- <com.qareeboon.TouchImageView -->
+    <!-- android:id="@+id/iv_pinchzoom" -->
+    <!-- android:layout_width="fill_parent" -->
+    <!-- android:layout_height="fill_parent" /> -->
+
+</LinearLayout><!-- From: file:/C:/NXTAPP_Feb_032/app/src/main/res/layout/imagedialog.xml -->

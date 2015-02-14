@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.example.nxtapp"
+    android:id="@+id/ln_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/chat_row_bg"
+    android:orientation="vertical"
+    android:paddingTop="5dp"
+     
+         >
+
+    <LinearLayout
+        android:id="@+id/ln_outGoing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+       android:layout_marginRight="15dp"
+       android:layout_marginLeft="15dp"
+       android:layout_marginBottom="15dp"
+       >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" >
+            </View>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:id="@+id/ln_out_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:background="@drawable/chat_right_new"
+                    android:orientation="horizontal"
+                    android:visibility="visible" >
+
+                    <com.aniways.AniwaysTextView
+                        android:id="@+id/message_wall_outgoing"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:autoLink="web"
+                        android:linksClickable="false"
+                        android:paddingLeft="4dp"
+                        android:paddingRight="8dp"
+                        android:paddingEnd="8dp"
+                        android:paddingBottom="4dp"
+                        android:paddingTop="4dp"
+                        android:textColor="@android:color/black"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ln_out_Image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:background="@drawable/chat_right_new"
+                    android:orientation="horizontal"
+                                        android:visibility="gone" >
+
+                    <ImageView
+                        android:id="@+id/iv_out_chatImage"
+                        android:layout_width="225dp"
+                        android:layout_height="225dp"
+                         android:padding="5dp"
+                         />
+                     <!--  android:scaleType="centerCrop" -->
+                </LinearLayout>
+              
+
+                <TextView
+                    android:id="@+id/txt_Time_outgoing"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:layout_gravity="right"
+                    android:text="Time"
+                      android:textColor="@color/light_grey"
+                    android:textSize="12sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- <ImageView -->
+        <!-- android:id="@+id/iv_chatProfile_OUTgoing" -->
+        <!-- android:layout_width="50dp" -->
+        <!-- android:layout_height="50dp" -->
+        <!-- android:src="@drawable/loading" -->
+        <!--  /> -->
+    </LinearLayout>
+
+    
+    <LinearLayout
+        android:id="@+id/ln_inComing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+         android:layout_marginRight="15dp"
+       android:layout_marginLeft="15dp"
+       android:layout_marginBottom="15dp"
+         >
+
+        <!-- <ImageView -->
+        <!-- android:id="@+id/iv_chatProfile_INcoming" -->
+        <!-- android:layout_width="50dp" -->
+        <!-- android:layout_height="50dp" -->
+        <!-- android:src="@drawable/loading" -->
+        <!--  /> -->
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:id="@+id/ln_in_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:background="@drawable/chat_left_new"
+                    android:visibility="visible" >
+
+                    <com.aniways.AniwaysTextView
+                        android:id="@+id/message_wall_incoming"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:autoLink="web"
+                        android:linksClickable="false"
+                        android:padding="4dip"
+                        android:textColor="@android:color/black"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ln_in_Image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:background="@drawable/chat_left_new"
+                    android:visibility="gone" >
+
+                    <ImageView
+                        android:id="@+id/iv_in_chatImage"
+                        android:layout_width="225dp"
+                        android:layout_height="225dp"
+                        android:padding="5dp"
+                         />
+                </LinearLayout>
+              <!--   android:scaleType="centerCrop" -->
+
+                <TextView
+                    android:id="@+id/txt_Time_incoming"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                       android:layout_marginLeft="5dp"
+                       
+                    android:text="Time"
+                    android:textColor="@color/light_grey"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" >
+            </View>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout> <!-- <ImageView -->
+<!-- android:layout_width="50dp" -->
+<!-- android:layout_height="50dp" -->
+<!-- android:src="@drawable/ic_launcher" -->
+<!--  /> -->
+<!-- From: file:/C:/NXTAPP_Feb_032/app/src/main/res/layout/chat_row.xml -->

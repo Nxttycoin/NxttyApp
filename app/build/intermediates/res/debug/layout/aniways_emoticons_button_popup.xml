@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/Aniways.StyledIndicators"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/aniways_IconsBackground"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/aniways_ebp_icon_assets_pager_indicator_holder"
+        style="@style/Aniways.StyledIndicators"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <com.aniways.viewpagerindicator.TabPageIndicator
+            android:id="@+id/aniways_ebp_icon_assets_pager_indicator"
+            style="@style/Aniways.StyledIndicators"
+            android:layout_width="0dp"
+            android:background="@color/aniways_AssetsBackground"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="0dp"
+            android:padding="0dip" />
+
+        <Button
+            android:id="@+id/aniways_ebp_credits_balance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|end"
+            android:layout_marginRight="0dp"
+            android:background="@drawable/aniways_popup_coins_balance"
+            android:ellipsize="end"
+            android:lines="1"
+            android:minHeight="1dp"
+            android:minWidth="1dp"
+            android:text="10"
+            android:textColor="@color/aniways_White"
+            android:textSize="10sp"
+            android:textStyle="bold"
+            android:layout_margin="4dp"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+
+    <com.aniways.emoticons.button.NonScrollingViewPager
+        android:id="@+id/aniways_ebp_icon_assets_pager"
+        style="@style/Aniways.StyledIndicators"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:layout_weight="1" />
+
+</LinearLayout><!-- From: file:/C:/Android/Aniways/Android-SDK/res/layout/aniways_emoticons_button_popup.xml --><!-- From: file:/C:/NXTAPP_Feb_032/app/build/intermediates/exploded-aar/com.aniways/library/2.3.05/res/layout/aniways_emoticons_button_popup.xml -->

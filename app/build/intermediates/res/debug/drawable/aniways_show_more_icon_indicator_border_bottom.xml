@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <stroke android:color="#00ffffff" />
+        </shape>
+    </item>
+    <item android:bottom="0.5dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#e6f3f4f4" />
+        </shape>
+    </item>
+</layer-list><!-- From: file:/C:/Android/Aniways/Android-SDK/res/drawable/aniways_show_more_icon_indicator_border_bottom.xml --><!-- From: file:/C:/NXTAPP_Feb_032/app/build/intermediates/exploded-aar/com.aniways/library/2.3.05/res/drawable/aniways_show_more_icon_indicator_border_bottom.xml -->

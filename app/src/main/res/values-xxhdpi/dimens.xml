@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="incomingCallTxt">17sp</dimen>
+    <dimen name="incomingCallUser">27sp</dimen>
+    <dimen name="incomingClPhnNum">21sp</dimen>
+    <dimen name="incomingClProfPic">140dp</dimen>
+    <dimen name="inClCallDuration">65sp</dimen>
+    <dimen name="inClSpeakerMuteBtnBg">280px</dimen>
+    
+    <dimen name="auto_fit_text_size">12sp</dimen><dimen name="mid_text_size">17sp</dimen>
+</resources>

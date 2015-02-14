@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="apache-mime4j-storage-0.7.2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.james/apache-mime4j-storage/0.7.2/459fa77616db49c598bd31a111d642c88435246c/apache-mime4j-storage-0.7.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.james/apache-mime4j-storage/0.7.2/80dfddf7665e0b6191548741e98698dae71595c7/apache-mime4j-storage-0.7.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

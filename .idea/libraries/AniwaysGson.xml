@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="AniwaysGson">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/AniwaysGson.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="apache-mime4j-benchmark-0.7.2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.james/apache-mime4j-benchmark/0.7.2/e78b97c5f8130289de714a8315b0813355be2bd3/apache-mime4j-benchmark-0.7.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.james/apache-mime4j-benchmark/0.7.2/852425be54660fbcbcd6eda33a290ed7c7c32005/apache-mime4j-benchmark-0.7.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="library-2.3.05">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.aniways/library/2.3.05/res" />
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.aniways/library/2.3.05/libs/AniwaysGoogleAnalytics.jar!/" />
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.aniways/library/2.3.05/classes.jar!/" />
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.aniways/library/2.3.05/libs/iab.jar!/" />
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.aniways/library/2.3.05/libs/AniwaysGson.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

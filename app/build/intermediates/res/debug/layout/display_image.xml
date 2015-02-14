@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@android:color/transparent"
+    >
+    
+	<LinearLayout android:layout_width="fill_parent"
+					android:layout_height="fill_parent" android:fadingEdge="none"
+					>
+					<com.nxtty.lib.imagezoom.ImageViewTouch
+						android:id="@+id/imgDisplay" android:layout_width="fill_parent"
+						android:layout_height="fill_parent" android:scrollbars="vertical"
+						android:cacheColorHint="#00000000" android:clickable="false"
+						android:fadingEdge="none" />
+
+				</LinearLayout>
+				
+</LinearLayout>
+<!-- From: file:/C:/NXTAPP_Feb_032/app/src/main/res/layout/display_image.xml -->

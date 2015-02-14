@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Android/Aniways/Android-SDK/res/values/aniways_setting_strings.xml -->
+    <eat-comment/>
+    <string-array name="supported_language_list">
+        <item>English</item>
+        <item>Arabic</item>
+        <item>Hebrew</item>
+        <item>Spanish</item>
+        <item>Russian</item>
+        <item>Persian</item>
+    </string-array>
+    <string-array name="supported_language_list_values">
+        <item>-1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <!-- From: file:/C:/Android/Aniways/Android-SDK/res/values/aniways_vpi__attrs.xml -->
+    <eat-comment/>
+    <attr format="boolean" name="aniways_vpi_centered"/>
+    <attr format="color" name="aniways_vpi_selectedColor"/>
+    <attr format="dimension" name="aniways_vpi_strokeWidth"/>
+    <attr format="color" name="aniways_vpi_unselectedColor"/>
+    <!-- From: file:/C:/Android/Aniways/Android-SDK/res/values/aniways_vpi__defaults.xml -->
+    <eat-comment/>
+    <bool name="aniways_default_circle_indicator_centered">true</bool>
+    <bool name="aniways_default_circle_indicator_snap">true</bool>
+    <bool name="aniways_default_line_indicator_centered">true</bool>
+    <bool name="aniways_default_title_indicator_selected_bold">true</bool>
+    <bool name="aniways_default_underline_indicator_fades">true</bool>
+    <!-- From: file:/C:/Android/Aniways/Android-SDK/res/values/aniways_colors.xml -->
+    <eat-comment/>
+    <color name="aniways_AliceBlue">#F0F8FF</color>
+    <color name="aniways_AntiqueWhite">#FAEBD7</color>
+    <color name="aniways_Aqua">#00FFFF</color>
+    <color name="aniways_Aquamarine">#7FFFD4</color>
+    <color name="aniways_AssetsBackground">#C4C4C4</color>
+    <color name="aniways_Azure">#F0FFFF</color>
+    <color name="aniways_Beige">#F5F5DC</color>
+    <color name="aniways_Bisque">#FFE4C4</color>
+    <color name="aniways_Black">#000000</color>
+    <color name="aniways_BlanchedAlmond">#FFEBCD</color>
+    <color name="aniways_Blue">#0000FF</color>
+    <color name="aniways_BlueViolet">#8A2BE2</color>
+    <color name="aniways_Brown">#A52A2A</color>
+    <color name="aniways_BurlyWood">#DEB887</color>
+    <color name="aniways_CadetBlue">#5F9EA0</color>
+    <color name="aniways_CategoriesBackground">#E6E6E6</color>
+    <color name="aniways_Chartreuse">#7FFF00</color>
+    <color name="aniways_Chocolate">#D2691E</color>
+    <color name="aniways_Coral">#FF7F50</color>
+    <color name="aniways_CornflowerBlue">#6495ED</color>
+    <color name="aniways_Cornsilk">#FFF8DC</color>
+    <color name="aniways_Crimson">#DC143C</color>
+    <color name="aniways_Cyan">#00FFFF</color>
+    <color name="aniways_DarkBlue">#00008B</color>
+    <color name="aniways_DarkCyan">#008B8B</color>
+    <color name="aniways_DarkGoldenrod">#B8860B</color>
+    <color name="aniways_DarkGray">#A9A9A9</color>
+    <color name="aniways_DarkGreen">#006400</color>
+    <color name="aniways_DarkKhaki">#BDB76B</color>
+    <color name="aniways_DarkMagenta">#8B008B</color>
+    <color name="aniways_DarkOliveGreen">#556B2F</color>
+    <color name="aniways_DarkOrange">#FF8C00</color>
+    <color name="aniways_DarkOrchid">#9932CC</color>
+    <color name="aniways_DarkRed">#8B0000</color>
+    <color name="aniways_DarkSalmon">#E9967A</color>
+    <color name="aniways_DarkSeaGreen">#8FBC8F</color>
+    <color name="aniways_DarkSlateBlue">#483D8B</color>
+    <color name="aniways_DarkSlateGray">#2F4F4F</color>
+    <color name="aniways_DarkTurquoise">#00CED1</color>
+    <color name="aniways_DarkViolet">#9400D3</color>
+    <color name="aniways_DeepPink">#FF1493</color>
+    <color name="aniways_DeepSkyBlue">#00BFFF</color>
+    <color name="aniways_DimGray">#696969</color>
+    <color name="aniways_DodgerBlue">#1E90FF</color>
+    <color name="aniways_EmoticonsButtonTabGreen">#38A400</color>
+    <color name="aniways_FireBrick">#B22222</color>
+    <color name="aniways_FloralWhite">#FFFAF0</color>
+    <color name="aniways_ForestGreen">#228B22</color>
+    <color name="aniways_Fuchsia">#FF00FF</color>
+    <color name="aniways_Gainsboro">#DCDCDC</color>
+    <color name="aniways_GhostWhite">#F8F8FF</color>
+    <color name="aniways_Gold">#FFD700</color>
+    <color name="aniways_Goldenrod">#DAA520</color>
+    <color name="aniways_Gray">#808080</color>
+    <color name="aniways_Green">#008000</color>
+    <color name="aniways_GreenYellow">#ADFF2F</color>
+    <color name="aniways_HighlightedCategory">#D0D0D0</color>
+    <color name="aniways_Honeydew">#F0FFF0</color>
+    <color name="aniways_HotPink">#FF69B4</color>
+    <color name="aniways_IconsBackground">#EEEEEE</color>
+    <color name="aniways_IndianRed">#CD5C5C</color>
+    <color name="aniways_Indigo">#4B0082</color>
+    <color name="aniways_Ivory">#FFFFF0</color>
+    <color name="aniways_Khaki">#F0E68C</color>
+    <color name="aniways_Lavender">#E6E6FA</color>
+    <color name="aniways_LavenderBlush">#FFF0F5</color>
+    <color name="aniways_LawnGreen">#7CFC00</color>
+    <color name="aniways_LemonChiffon">#FFFACD</color>
+    <color name="aniways_LightBlue">#ADD8E6</color>
+    <color name="aniways_LightCoral">#F08080</color>
+    <color name="aniways_LightCyan">#E0FFFF</color>
+    <color name="aniways_LightGoldenrodYellow">#FAFAD2</color>
+    <color name="aniways_LightGray">#9C9C9C</color>
+    <color name="aniways_LightGreen">#90EE90</color>
+    <color name="aniways_LightGrey">#D3D3D3</color>
+    <color name="aniways_LightPink">#FFB6C1</color>
+    <color name="aniways_LightSalmon">#FFA07A</color>
+    <color name="aniways_LightSeaGreen">#20B2AA</color>
+    <color name="aniways_LightSkyBlue">#87CEFA</color>
+    <color name="aniways_LightSlateGray">#778899</color>
+    <color name="aniways_LightSteelBlue">#B0C4DE</color>
+    <color name="aniways_LightYellow">#FFFFE0</color>
+    <color name="aniways_Lime">#00FF00</color>
+    <color name="aniways_LimeGreen">#32CD32</color>
+    <color name="aniways_Linen">#FAF0E6</color>
+    <color name="aniways_Magenta">#FF00FF</color>
+    <color name="aniways_Maroon">#800000</color>
+    <color name="aniways_MediumAquamarine">#66CDAA</color>
+    <color name="aniways_MediumBlue">#0000CD</color>
+    <color name="aniways_MediumOrchid">#BA55D3</color>
+    <color name="aniways_MediumPurple">#9370DB</color>
+    <color name="aniways_MediumSeaGreen">#3CB371</color>
+    <color name="aniways_MediumSlateBlue">#7B68EE</color>
+    <color name="aniways_MediumSpringGreen">#00FA9A</color>
+    <color name="aniways_MediumTurquoise">#48D1CC</color>
+    <color name="aniways_MediumVioletRed">#C71585</color>
+    <color name="aniways_MidnightBlue">#191970</color>
+    <color name="aniways_MintCream">#F5FFFA</color>
+    <color name="aniways_MistyRose">#FFE4E1</color>
+    <color name="aniways_Moccasin">#FFE4B5</color>
+    <color name="aniways_NavajoWhite">#FFDEAD</color>
+    <color name="aniways_Navy">#000080</color>
+    <color name="aniways_OldLace">#FDF5E6</color>
+    <color name="aniways_Olive">#808000</color>
+    <color name="aniways_OliveDrab">#6B8E23</color>
+    <color name="aniways_Orange">#FFA500</color>
+    <color name="aniways_OrangeRed">#FF4500</color>
+    <color name="aniways_Orchid">#DA70D6</color>
+    <color name="aniways_PaleGoldenrod">#EEE8AA</color>
+    <color name="aniways_PaleGreen">#98FB98</color>
+    <color name="aniways_PaleTurquoise">#AFEEEE</color>
+    <color name="aniways_PaleVioletRed">#DB7093</color>
+    <color name="aniways_PapayaWhip">#FFEFD5</color>
+    <color name="aniways_PeachPuff">#FFDAB9</color>
+    <color name="aniways_Peru">#CD853F</color>
+    <color name="aniways_Pink">#FFC0CB</color>
+    <color name="aniways_Plum">#DDA0DD</color>
+    <color name="aniways_PowderBlue">#B0E0E6</color>
+    <color name="aniways_Purple">#800080</color>
+    <color name="aniways_Red">#FF0000</color>
+    <color name="aniways_RosyBrown">#BC8F8F</color>
+    <color name="aniways_RoyalBlue">#4169E1</color>
+    <color name="aniways_SaddleBrown">#8B4513</color>
+    <color name="aniways_Salmon">#FA8072</color>
+    <color name="aniways_SandyBrown">#F4A460</color>
+    <color name="aniways_SeaGreen">#2E8B57</color>
+    <color name="aniways_Seashell">#FFF5EE</color>
+    <color name="aniways_Shai">#AC6B2A</color>
+    <color name="aniways_Shai2">#C2843C</color>
+    <color name="aniways_Shai3">#B57631</color>
+    <color name="aniways_Shai4">#AD6E2B</color>
+    <color name="aniways_Sienna">#A0522D</color>
+    <color name="aniways_Silver">#C0C0C0</color>
+    <color name="aniways_SkyBlue">#87CEEB</color>
+    <color name="aniways_SlateBlue">#6A5ACD</color>
+    <color name="aniways_SlateGray">#708090</color>
+    <color name="aniways_Snow">#FFFAFA</color>
+    <color name="aniways_SpringGreen">#00FF7F</color>
+    <color name="aniways_SteelBlue">#4682B4</color>
+    <color name="aniways_Tan">#D2B48C</color>
+    <color name="aniways_Teal">#008080</color>
+    <color name="aniways_Thistle">#D8BFD8</color>
+    <color name="aniways_Tomato">#FF6347</color>
+    <color name="aniways_Turquoise">#40E0D0</color>
+    <color name="aniways_Violet">#EE82EE</color>
+    <color name="aniways_Wheat">#F5DEB3</color>
+    <color name="aniways_White">#FFFFFF</color>
+    <color name="aniways_WhiteSmoke">#F5F5F5</color>
+    <color name="aniways_Yellow">#FFFF00</color>
+    <color name="aniways_YellowGreen">#9ACD32</color>
+    <color name="aniways_contextual_asset_card_background_color">#FFF7F7F7</color>
+    <color name="aniways_contextual_asset_card_bottom_stroke_color">#FFAAB0B7</color>
+    <color name="aniways_contextual_asset_card_icon_color">#FFA6A6A6</color>
+    <color name="aniways_contextual_popup_background_color">#F8F8F8</color>
+    <color name="aniways_contextual_popup_border_color">#D0D0D0</color>
+    <!-- From: file:/C:/Android/Aniways/Android-SDK/res/values/aniways_vpi__defaults.xml -->
+    <eat-comment/>
+    <color name="aniways_default_circle_indicator_fill_color">#FFFFFFFF</color>
+    <color name="aniways_default_circle_indicator_page_color">#CCD9D9D9</color>
+    <color name="aniways_default_circle_indicator_stroke_color">#CCD9D9D9</color>
+    <color name="aniways_default_line_indicator_selected_color">#FF33B5E5</color>
+    <color name="aniways_default_line_indicator_unselected_color">#FFBBBBBB</color>
+    <color name="aniways_default_title_indicator_footer_color">#FF33B5E5</color>
+    <color name="aniways_default_title_indicator_selected_color">#FFFFFFFF</color>
+    <color name="aniways_default_title_indicator_text_color">#BBFFFFFF</color>
+    <color name="aniways_default_underline_indicator_selected_color">#FF33B5E5</color>
+    <!-- From: file:/C:/Android/Aniways/Android-SDK/res/values/aniways_colors.xml -->
+    <eat-comment/>
+    <color name="aniways_pressed_example">#CC33B5E5</color>
+    <color name="aniways_toast_background_color">#9E000006</color>
+    <color name="aniways_transparent">#00000000</color>
+    <!-- From: file:/C:/Android/Aniways/Android-SDK/res/values/aniways_vpi__colors.xml -->
+    <eat-comment/>
+    <color name="aniways_vpi__background_holo_dark">#ff000000</color>
+    <color name="aniways_vpi__background_holo_light">#fff3f3f3</color>
+    <color name="aniways_vpi__bright_foreground_disabled_holo_dark">#ff4c4c4c</color>
+    <color name="aniways_vpi__bright_foreground_disabled_holo_light">#ffb2b2b2</color>
+    <color name="aniways_vpi__bright_foreground_holo_dark">@color/aniways_vpi__background_holo_light</color>
+    <color name="aniways_vpi__bright_foreground_holo_light">@color/aniways_vpi__background_holo_dark</color>
+    <color name="aniways_vpi__bright_foreground_inverse_holo_dark">@color/aniways_vpi__bright_foreground_holo_light</color>
+    <color name="aniways_vpi__bright_foreground_inverse_holo_light">@color/aniways_vpi__bright_foreground_holo_dark</color>
+    <declare-styleable name="AniwaysBlurView"><attr format="float" name="aniways_blur_radius"/></declare-styleable>
+    <declare-styleable name="AniwaysCirclePageIndicator"><attr name="aniways_vpi_centered"/><attr format="color" name="aniways_vpi_fillColor"/><attr format="color" name="aniways_vpi_pageColor"/><attr name="android:orientation"/><attr format="dimension" name="aniways_vpi_radius"/><attr format="boolean" name="aniways_vpi_snap"/><attr format="color" name="aniways_vpi_strokeColor"/><attr name="aniways_vpi_strokeWidth"/><attr name="android:background"/></declare-styleable>
+    <declare-styleable name="AniwaysContextualBubbleView"><attr format="dimension" name="aniways_contextual_bubble_cornerRadius"/><attr format="dimension" name="aniways_contextual_bubble_pointerHeight"/><attr format="dimension" name="aniways_contextual_bubble_pointerWidth"/><attr format="color" name="aniways_contextual_bubble_color"/><attr format="color" name="aniways_contextual_bubble_outlineColor"/><attr format="dimension" name="aniways_contextual_bubble_outlineWidth"/><attr format="dimension" name="aniways_contextual_bubble_shadowRadius"/><attr format="dimension" name="aniways_contextual_bubble_shadowOffsetX"/><attr format="dimension" name="aniways_contextual_bubble_shadowOffsetY"/><attr format="color" name="aniways_contextual_bubble_shadowColor"/><attr format="color" name="aniways_contextual_bubble_gradientTopColor"/><attr format="color" name="aniways_contextual_bubble_gradientBottomColor"/></declare-styleable>
+    <declare-styleable name="AniwaysLinePageIndicator"><attr name="aniways_vpi_centered"/><attr name="aniways_vpi_unselectedColor"/><attr name="aniways_vpi_selectedColor"/><attr format="dimension" name="aniways_vpi_lineWidth"/><attr name="aniways_vpi_strokeWidth"/><attr format="dimension" name="aniways_vpi_gapWidth"/><attr name="android:background"/></declare-styleable>
+    <declare-styleable name="AniwaysSmallIcons"><attr format="boolean" name="aniways_use_small_icons"/><attr format="boolean" name="aniways_icons_clickable"/></declare-styleable>
+    <declare-styleable name="AniwaysTitlePageIndicator"><attr format="dimension" name="aniways_vpi_clipPadding"/><attr format="color" name="aniways_vpi_footerColor"/><attr format="dimension" name="aniways_vpi_footerLineHeight"/><attr name="aniways_vpi_footerIndicatorStyle"><enum name="none" value="0"/><enum name="triangle" value="1"/><enum name="underline" value="2"/></attr><attr format="dimension" name="aniways_vpi_footerIndicatorHeight"/><attr format="dimension" name="aniways_vpi_footerIndicatorUnderlinePadding"/><attr format="dimension" name="aniways_vpi_footerPadding"/><attr name="aniways_vpi_linePosition"><enum name="bottom" value="0"/><enum name="top" value="1"/></attr><attr name="aniways_vpi_selectedColor"/><attr format="boolean" name="aniways_vpi_selectedBold"/><attr name="android:textColor"/><attr name="android:textSize"/><attr format="dimension" name="aniways_vpi_titlePadding"/><attr format="dimension" name="aniways_vpi_topPadding"/><attr name="android:background"/></declare-styleable>
+    <declare-styleable name="AniwaysUnderlinePageIndicator"><attr format="boolean" name="aniways_vpi_fades"/><attr format="integer" name="aniways_vpi_fadeDelay"/><attr format="integer" name="aniways_vpi_fadeLength"/><attr name="aniways_vpi_selectedColor"/><attr name="android:background"/></declare-styleable>
+    <declare-styleable name="AniwaysViewPagerIndicator"><attr format="reference" name="aniways_vpiCirclePageIndicatorStyle"/><attr format="reference" name="aniways_vpiIconPageIndicatorStyle"/><attr format="reference" name="aniways_vpiLinePageIndicatorStyle"/><attr format="reference" name="aniways_vpiTitlePageIndicatorStyle"/><attr format="reference" name="aniways_vpiTabPageIndicatorStyle"/><attr format="reference" name="aniways_vpiTextTabPageIndicatorStyle"/><attr format="reference" name="aniways_vpiImageTabPageIndicatorStyle"/><attr format="reference" name="aniways_vpiUnderlinePageIndicatorStyle"/></declare-styleable>
+    <declare-styleable name="ListPreferenceMultiSelect"><attr format="string" name="checkAll"/><attr format="string" name="separator"/></declare-styleable>
+    <declare-styleable name="SlidingLayer"><attr format="boolean" name="shadowDrawable"/><attr format="dimension" name="shadowWidth"/><attr format="boolean" name="closeOnTapEnabled"/><attr format="boolean" name="openOnTapEnabled"/><attr format="dimension" name="offsetWidth"/><attr format="enum" name="stickTo"><enum name="auto" value="0"/><enum name="right" value="-1"/><enum name="left" value="-2"/><enum name="middle" value="-3"/><enum name="top" value="-4"/><enum name="bottom" value="-5"/></attr></declare-styleable>
+    <!-- From: file:/C:/Android/Aniways/Android-SDK/res/values/aniways_dimensions.xml -->
+    <eat-comment/>
+    <dimen name="aniways_asset_toast_corner_radius">25dp</dimen>
+    <dimen name="aniways_asset_toast_height">50dp</dimen>
+    <dimen name="aniways_asset_toast_icon_size">14dp</dimen>
+    <dimen name="aniways_contextual_card_elevation">8dp</dimen>
+    <dimen name="aniways_contextual_card_hint_height">15dp</dimen>
+    <dimen name="aniways_contextual_card_icon_holder_width">27dp</dimen>
+    <dimen name="aniways_contextual_card_icon_size">19dp</dimen>
+    <dimen name="aniways_contextual_card_min_height">70dp</dimen>
+    <dimen name="aniways_contextual_card_reveal_width">15dp</dimen>
+    <dimen name="aniways_contextual_card_right_margin_width">5dp</dimen>
+    <dimen name="aniways_contextual_card_setting_overflow_width">-52dp</dimen>
+    <dimen name="aniways_contextual_card_setting_padding">22dp</dimen>
+    <dimen name="aniways_contextual_card_setting_peek_width">148dp</dimen>
+    <dimen name="aniways_contextual_card_setting_total_width">200dp</dimen>
+    <dimen name="aniways_contextual_card_setting_visible_width">146dp</dimen>
+    <dimen name="aniways_contextual_card_stroke_height">1dp</dimen>
+    <dimen name="aniways_contextual_card_wink_width">50dp</dimen>
+    <dimen name="aniways_contextual_popup_arrow_height">15dp</dimen>
+    <dimen name="aniways_contextual_popup_arrow_width">15dp</dimen>
+    <dimen name="aniways_contextual_popup_border_width">1dp</dimen>
+    <!-- From: file:/C:/Android/Aniways/Android-SDK/res/values/aniways_vpi__defaults.xml -->
+    <eat-comment/>
+    <dimen name="aniways_default_circle_indicator_radius">3dp</dimen>
+    <dimen name="aniways_default_circle_indicator_stroke_width">0dp</dimen>
+    <dimen name="aniways_default_line_indicator_gap_width">4dp</dimen>
+    <dimen name="aniways_default_line_indicator_line_width">12dp</dimen>
+    <dimen name="aniways_default_line_indicator_stroke_width">1dp</dimen>
+    <dimen name="aniways_default_title_indicator_clip_padding">4dp</dimen>
+    <dimen name="aniways_default_title_indicator_footer_indicator_height">0dp</dimen>
+    <dimen name="aniways_default_title_indicator_footer_indicator_underline_padding">20dp</dimen>
+    <dimen name="aniways_default_title_indicator_footer_line_height">0dp</dimen>
+    <dimen name="aniways_default_title_indicator_footer_padding">15dp</dimen>
+    <dimen name="aniways_default_title_indicator_text_size">20dp</dimen>
+    <dimen name="aniways_default_title_indicator_title_padding">25dp</dimen>
+    <dimen name="aniways_default_title_indicator_top_padding">8dp</dimen>
+    <!-- From: file:/C:/Android/Aniways/Android-SDK/res/values/aniways_dimensions.xml -->
+    <eat-comment/>
+    <dimen name="aniways_keyboard_height">230dip</dimen>
+    <dimen name="aniways_suggestion_box_padding">2dp</dimen>
+    <!-- From: file:/C:/Android/Aniways/Android-SDK/res/values/aniways_ids.xml -->
+    <eat-comment/>
+    <item name="aniways_asset_info_tag" type="id"/>
+    <item name="aniways_progress_bar_id" type="id"/>
+    <item name="aniways_quickaction_credits_balance" type="id"/>
+    <!-- From: file:/C:/Android/Aniways/Android-SDK/res/values/aniways_integers.xml -->
+    <eat-comment/>
+    <integer name="aniwaysContextualPopupFadeInAimationOffset">75</integer>
+    <integer name="aniwaysContextualPopupFadeInAimationTime">300</integer>
+    <integer name="aniwaysPopupAimationTime">100</integer>
+    <integer name="aniwaysRailAimationTime">300</integer>
+    <!-- From: file:/C:/Android/Aniways/Android-SDK/res/values/aniways_vpi__defaults.xml -->
+    <eat-comment/>
+    <integer name="aniways_default_circle_indicator_orientation">0</integer>
+    <integer name="aniways_default_title_indicator_footer_indicator_style">0</integer>
+    <integer name="aniways_default_title_indicator_line_position">0</integer>
+    <integer name="aniways_default_underline_indicator_fade_delay">300</integer>
+    <integer name="aniways_default_underline_indicator_fade_length">400</integer>
+    <!-- From: file:/C:/Android/Aniways/Android-SDK/res/values/aniways_strings.xml -->
+    <eat-comment/>
+    <string name="aniways_asset_type_emoticons">Emoticons</string>
+    <string name="aniways_asset_type_gifs">Animations</string>
+    <string name="aniways_check_internet_connection">Please check you are connected to the internet</string>
+    <!-- From: file:/C:/Android/Aniways/Android-SDK/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="aniways_contextual_asset_card_icon_description">Asset</string>
+    <!-- From: file:/C:/Android/Aniways/Android-SDK/res/values/aniways_strings.xml -->
+    <eat-comment/>
+    <string name="aniways_contextual_card_title_settings">Settings</string>
+    <string name="aniways_giphy_api_key">dc6zaTOxFJmzC</string>
+    <string name="aniways_giphy_api_search_by_id_url_format">http://api.giphy.com/v1/gifs/%1$s?api_key=%2$s</string>
+    <string name="aniways_giphy_api_search_term_url_format">http://api.giphy.com/v1/gifs/search?q=%1$s&amp;api_key=%2$s&amp;limit=%3$s&amp;offset=%4$s</string>
+    <string name="aniways_tutorial_settings_text">Adjust Smarticons experience in the dropdown menu above</string>
+    <!-- From: file:/C:/Android/Aniways/Android-SDK/res/values/aniways_setting_strings.xml -->
+    <eat-comment/>
+    <string name="auto_suggest_key">aniways_autoSuggestionsEnabledByUser</string>
+    <string name="changes_will_take_effect_after_reentering_conversation_dialog_content">Will we visible once you leave and re-open the conversation.</string>
+    <string name="changes_will_take_effect_after_reentering_conversation_dialog_title">Change is not immediate</string>
+    <string name="contextual_suggestion_key">com.aniways.CONTEXTUAL_ICON_SUGGESTIONS</string>
+    <string name="disable_contextual_dialog_content">Turning on smarticon can be done in the app settings.</string>
+    <string name="disable_contextual_dialog_title">Disabling Smarticons</string>
+    <string name="emoticon_resize_description">This is how an in message icon should look like:</string>
+    <string name="in_message_emoticon_size_title">ADJUST IN-MESSAGE EMOTICONS SIZE</string>
+    <string name="in_message_icon_size_key">com.aniways.KEY_ICON_IN_TEXTVIEW_SIZE</string>
+    <string name="is_aniways_enabled_title">Manual Suggest Content</string>
+    <string name="is_auto_suggest_enabled_title">Auto Suggest Content</string>
+    <string name="language_support_key">aniways_languageSupport</string>
+    <string name="language_support_title">Language Support</string>
+    <string name="selected_languages_dialog_title">Selected Language</string>
+    <string name="title_activity_aniways_settings">Settings</string>
+    <!-- From: file:/C:/Android/Aniways/Android-SDK/res/values/aniways_vpi_styles.xml -->
+    <eat-comment/>
+    <style name="Aniways"/>
+    <!-- From: file:/C:/Android/Aniways/Android-SDK/res/values/aniways_styles.xml -->
+    <eat-comment/>
+    <style name="Aniways.ContextualPopup.Card.Text" parent="android:TextAppearance.Medium">
+        <item name="android:typeface">normal</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#FF000000</item>
+    </style>
+    <!-- From: file:/C:/Android/Aniways/Android-SDK/res/values/aniways_vpi_styles.xml -->
+    <eat-comment/>
+    <style name="Aniways.CustomCirclePageIndicator" parent="Aniways">
+        <item name="aniways_vpi_fillColor">#FF888888</item>
+        <item name="aniways_vpi_strokeColor">#FF000000</item>
+        <item name="aniways_vpi_strokeWidth">2dp</item>
+        <item name="aniways_vpi_radius">10dp</item>
+        <item name="aniways_vpi_centered">true</item>
+        <item name="android:padding">20dp</item>
+    </style>
+    <style name="Aniways.CustomLinePageIndicator" parent="Aniways">
+        <item name="aniways_vpi_strokeWidth">4dp</item>
+        <item name="aniways_vpi_lineWidth">30dp</item>
+        <item name="aniways_vpi_unselectedColor">#FF888888</item>
+        <item name="aniways_vpi_selectedColor">#FF880000</item>
+    </style>
+    <style name="Aniways.CustomTabPageIndicator.Text" parent="android:TextAppearance.Medium">
+        <item name="android:typeface">normal</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+    <style name="Aniways.CustomTitlePageIndicator" parent="Aniways">
+        <item name="android:background">#FFC4C4C4</item>
+        <item name="aniways_vpi_footerColor">#FF000000</item>
+        <item name="aniways_vpi_footerLineHeight">0dp</item>
+        <item name="aniways_vpi_footerIndicatorHeight">0dp</item>
+        <item name="aniways_vpi_footerIndicatorStyle">underline</item>
+        <item name="android:textColor">#66FFFFFF</item>
+        <item name="aniways_vpi_selectedColor">#FFFFFFFF</item>
+        <item name="aniways_vpi_selectedBold">true</item>
+    </style>
+    <style name="Aniways.CustomUnderlinePageIndicator" parent="Aniways">
+        <item name="aniways_vpi_selectedColor">#FFCC0000</item>
+        <item name="android:background">#FFCCCCCC</item>
+        <item name="aniways_vpi_fadeLength">1000</item>
+        <item name="aniways_vpi_fadeDelay">1000</item>
+    </style>
+    <style name="Aniways.ImageTabPageIndicator" parent="Aniways.Widget.TabPageIndicator">
+        <item name="android:background">@drawable/aniways_vpi_custom_tab_indicator</item>
+        <item name="android:textAppearance">@style/Aniways.CustomTabPageIndicator.Text</item>
+        <item name="android:textColor">#FF555555</item>
+        <item name="android:dividerPadding">0dp</item>
+        <item name="android:showDividers">none</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:fadingEdge">none</item>
+    </style>
+    <style name="Aniways.StyledIndicators" parent="@android:style/Theme.Light">
+        <item name="aniways_vpiCirclePageIndicatorStyle">@style/Aniways.CustomCirclePageIndicator</item>
+        <item name="aniways_vpiLinePageIndicatorStyle">@style/Aniways.CustomLinePageIndicator</item>
+        <item name="aniways_vpiTitlePageIndicatorStyle">@style/Aniways.CustomTitlePageIndicator</item>
+        <item name="aniways_vpiTextTabPageIndicatorStyle">@style/Aniways.TextTabPageIndicator</item>
+        <item name="aniways_vpiImageTabPageIndicatorStyle">@style/Aniways.ImageTabPageIndicator</item>
+        <item name="aniways_vpiUnderlinePageIndicatorStyle">@style/Aniways.CustomUnderlinePageIndicator</item>
+    </style>
+    <style name="Aniways.TextTabPageIndicator" parent="Aniways.Widget.TabPageIndicator">
+        <item name="android:background">@color/aniways_transparent</item>
+        <item name="android:textAppearance">@style/Aniways.CustomTabPageIndicator.Text</item>
+        <item name="android:textColor">@color/aniways_vpi_text_tab_indicator_color</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:dividerPadding">0dp</item>
+        <item name="android:showDividers">none</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:paddingRight">0dp</item>
+        <item name="android:fadingEdge">horizontal</item>
+        <item name="android:fadingEdgeLength">8dp</item>
+    </style>
+    <!-- From: file:/C:/Android/Aniways/Android-SDK/res/values/aniways_styles.xml -->
+    <eat-comment/>
+    <style name="Aniways.Toast.Text" parent="android:TextAppearance.Medium">
+        <item name="android:typeface">normal</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#FFFFFFFF</item>
+    </style>
+    <!-- From: file:/C:/Android/Aniways/Android-SDK/res/values/aniways_vpi_styles.xml -->
+    <eat-comment/>
+    <style name="Aniways.Widget">
+    </style>
+    <style name="Aniways.Widget.IconPageIndicator" parent="Aniways.Widget">
+        <item name="android:layout_marginLeft">6dp</item>
+        <item name="android:layout_marginRight">6dp</item>
+    </style>
+    <style name="Aniways.Widget.TabPageIndicator" parent="Aniways.Widget">
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/aniways_vpi__tab_indicator</item>
+        <item name="android:paddingLeft">22dip</item>
+        <item name="android:paddingRight">22dip</item>
+        <item name="android:paddingTop">3dp</item>
+        <item name="android:paddingBottom">6dp</item>
+        <item name="android:textAppearance">@style/Aniways.Widget.TextAppearance.TabPageIndicator</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:maxLines">1</item>
+    </style>
+    <style name="Aniways.Widget.TextAppearance.TabPageIndicator" parent="Aniways.Widget">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/aniways_vpi__dark_theme</item>
+    </style>
+    <!-- From: file:/C:/Android/Aniways/Android-SDK/res/values/aniways_styles.xml -->
+    <eat-comment/>
+    <style name="AniwaysAnimations"/>
+    <style name="AniwaysAnimations.PopDownMenu"/>
+    <style name="AniwaysAnimations.PopDownMenu.Center" parent="AniwaysAnimations.PopDownMenu">
+        <item name="@android:windowEnterAnimation">@anim/aniways_grow_from_top</item>
+        <item name="@android:windowExitAnimation">@anim/aniways_shrink_from_bottom</item>
+    </style>
+    <style name="AniwaysAnimations.PopDownMenu.Left" parent="AniwaysAnimations.PopDownMenu">
+        <item name="@android:windowEnterAnimation">@anim/aniways_grow_from_topleft_to_bottomright</item>
+        <item name="@android:windowExitAnimation">@anim/aniways_shrink_from_bottomright_to_topleft</item>
+    </style>
+    <style name="AniwaysAnimations.PopDownMenu.Right" parent="AniwaysAnimations.PopDownMenu">
+        <item name="@android:windowEnterAnimation">@anim/aniways_grow_from_topright_to_bottomleft</item>
+        <item name="@android:windowExitAnimation">@anim/aniways_shrink_from_bottomleft_to_topright</item>
+    </style>
+    <style name="AniwaysAnimations.PopUpMenu"/>
+    <style name="AniwaysAnimations.PopUpMenu.Bottom" parent="AniwaysAnimations.PopUpMenu">
+        <item name="@android:windowEnterAnimation">@anim/aniways_slide_from_bottom</item>
+        <item name="@android:windowExitAnimation">@anim/aniways_slide_to_bottom</item>
+    </style>
+    <style name="AniwaysAnimations.PopUpMenu.Center" parent="AniwaysAnimations.PopUpMenu">
+        <item name="@android:windowEnterAnimation">@anim/aniways_grow_from_bottom</item>
+        <item name="@android:windowExitAnimation">@anim/aniways_shrink_from_top</item>
+    </style>
+    <style name="AniwaysAnimations.PopUpMenu.Left" parent="AniwaysAnimations.PopUpMenu">
+        <item name="@android:windowEnterAnimation">@anim/aniways_grow_from_bottomleft_to_topright</item>
+        <item name="@android:windowExitAnimation">@anim/aniways_shrink_from_topright_to_bottomleft</item>
+    </style>
+    <style name="AniwaysAnimations.PopUpMenu.Right" parent="AniwaysAnimations.PopUpMenu">
+        <item name="@android:windowEnterAnimation">@anim/aniways_grow_from_bottomright_to_topleft</item>
+        <item name="@android:windowExitAnimation">@anim/aniways_shrink_from_topleft_to_bottomright</item>
+    </style>
+    <style name="Theme.Aniways.PageIndicatorDefaults" parent="android:Theme">
+        <item name="aniways_vpiIconPageIndicatorStyle">@style/Aniways.Widget.IconPageIndicator</item>
+        <item name="aniways_vpiTabPageIndicatorStyle">@style/Aniways.Widget.TabPageIndicator</item>
+    </style>
+    <style name="Theme.Aniways.Transparent" parent="@android:style/Theme.Dialog">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@color/aniways_transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+</resources>

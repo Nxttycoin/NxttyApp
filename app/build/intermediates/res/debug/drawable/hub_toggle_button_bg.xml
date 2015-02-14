@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/frame" android:state_checked="true"/>
+    <item android:drawable="@drawable/mask" android:state_checked="false"/>
+
+</selector><!-- From: file:/C:/NXTAPP_Feb_032/app/src/main/res/drawable/hub_toggle_button_bg.xml -->

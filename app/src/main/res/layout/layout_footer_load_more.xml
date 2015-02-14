@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        android:id="@+id/load_more_footer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent" >
+
+        <!-- <TextView -->
+        <!-- android:id="@+id/load_more_lab_view" -->
+        <!-- android:layout_width="wrap_content" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- android:layout_centerInParent="true" -->
+        <!-- android:gravity="center_horizontal" -->
+        <!-- android:padding="3dp" -->
+        <!-- android:text="@string/load_more_post" -->
+        <!-- android:textAppearance="?android:attr/textAppearanceSmall" -->
+        <!-- android:textColor="@color/dark_slate_gray" /> -->
+
+        <ProgressBar
+            android:id="@+id/load_more_progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+</LinearLayout>

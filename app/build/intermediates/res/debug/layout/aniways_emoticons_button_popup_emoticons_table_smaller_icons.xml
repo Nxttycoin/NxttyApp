@@ -1,0 +1,386 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:shrinkColumns="*"
+    android:stretchColumns="*"
+    android:paddingLeft="3dp"
+    android:paddingRight="3dp" >
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginBottom="3dp" >
+
+        <include
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            layout="@layout/aniways_emoticons_button_popup_emoticon_item" />
+        
+        <include
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            layout="@layout/aniways_emoticons_button_popup_emoticon_item" />
+        
+        <include
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            layout="@layout/aniways_emoticons_button_popup_emoticon_item" />
+        
+        <include
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            layout="@layout/aniways_emoticons_button_popup_emoticon_item" />
+        
+        <include
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            layout="@layout/aniways_emoticons_button_popup_emoticon_item" />
+        
+        <include
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            layout="@layout/aniways_emoticons_button_popup_emoticon_item" />
+        
+        <include
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            layout="@layout/aniways_emoticons_button_popup_emoticon_item" />
+        
+        <include
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            layout="@layout/aniways_emoticons_button_popup_emoticon_item" />
+
+    </TableRow>
+    
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="3dp" >
+
+        <include
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            layout="@layout/aniways_emoticons_button_popup_emoticon_item" />
+        
+        <include
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            layout="@layout/aniways_emoticons_button_popup_emoticon_item" />
+        
+        <include
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            layout="@layout/aniways_emoticons_button_popup_emoticon_item" />
+        
+        <include
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            layout="@layout/aniways_emoticons_button_popup_emoticon_item" />
+        
+        <include
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            layout="@layout/aniways_emoticons_button_popup_emoticon_item" />
+        
+        <include
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            layout="@layout/aniways_emoticons_button_popup_emoticon_item" />
+        
+        <include
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            layout="@layout/aniways_emoticons_button_popup_emoticon_item" />
+        
+        <include
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            layout="@layout/aniways_emoticons_button_popup_emoticon_item" />
+
+    </TableRow>
+    
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="3dp" >
+
+        <include
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            layout="@layout/aniways_emoticons_button_popup_emoticon_item" />
+        
+        <include
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            layout="@layout/aniways_emoticons_button_popup_emoticon_item" />
+        
+        <include
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            layout="@layout/aniways_emoticons_button_popup_emoticon_item" />
+        
+        <include
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            layout="@layout/aniways_emoticons_button_popup_emoticon_item" />
+        
+        <include
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            layout="@layout/aniways_emoticons_button_popup_emoticon_item" />
+        
+        <include
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            layout="@layout/aniways_emoticons_button_popup_emoticon_item" />
+        
+        <include
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            layout="@layout/aniways_emoticons_button_popup_emoticon_item" />
+        
+        <include
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            layout="@layout/aniways_emoticons_button_popup_emoticon_item" />
+
+    </TableRow>
+    
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="3dp" >
+
+        <include
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            layout="@layout/aniways_emoticons_button_popup_emoticon_item" />
+        
+        <include
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            layout="@layout/aniways_emoticons_button_popup_emoticon_item" />
+        
+        <include
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            layout="@layout/aniways_emoticons_button_popup_emoticon_item" />
+        
+        <include
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            layout="@layout/aniways_emoticons_button_popup_emoticon_item" />
+        
+        <include
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            layout="@layout/aniways_emoticons_button_popup_emoticon_item" />
+        
+        <include
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            layout="@layout/aniways_emoticons_button_popup_emoticon_item" />
+        
+        <include
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            layout="@layout/aniways_emoticons_button_popup_emoticon_item" />
+        
+        <include
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            layout="@layout/aniways_emoticons_button_popup_emoticon_item" />
+
+    </TableRow>
+    
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="3dp" >
+
+        <include
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            layout="@layout/aniways_emoticons_button_popup_emoticon_item" />
+        
+        <include
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            layout="@layout/aniways_emoticons_button_popup_emoticon_item" />
+        
+        <include
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            layout="@layout/aniways_emoticons_button_popup_emoticon_item" />
+        
+        <include
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            layout="@layout/aniways_emoticons_button_popup_emoticon_item" />
+        
+        <include
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            layout="@layout/aniways_emoticons_button_popup_emoticon_item" />
+        
+        <include
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            layout="@layout/aniways_emoticons_button_popup_emoticon_item" />
+        
+        <include
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            layout="@layout/aniways_emoticons_button_popup_emoticon_item" />
+        
+        <include
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            layout="@layout/aniways_emoticons_button_popup_emoticon_item" />
+
+    </TableRow>
+
+</TableLayout>
+<!-- From: file:/C:/Android/Aniways/Android-SDK/res/layout/aniways_emoticons_button_popup_emoticons_table_smaller_icons.xml --><!-- From: file:/C:/NXTAPP_Feb_032/app/build/intermediates/exploded-aar/com.aniways/library/2.3.05/res/layout/aniways_emoticons_button_popup_emoticons_table_smaller_icons.xml -->

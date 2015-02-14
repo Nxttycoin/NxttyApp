@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v4.view.AniwaysHorizontalViewPager
+        android:id="@+id/aniways_ebp_icons_pager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center" />
+    
+    <com.aniways.viewpagerindicator.CirclePageIndicator
+        android:id="@+id/aniways_ebp_icons_pager_indicator"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dip"
+        app:aniways_vpi_snap="false" />
+
+</LinearLayout><!-- From: file:/C:/Android/Aniways/Android-SDK/res/layout/aniways_emoticons_button_popup_icons_pager.xml --><!-- From: file:/C:/NXTAPP_Feb_032/app/build/intermediates/exploded-aar/com.aniways/library/2.3.05/res/layout/aniways_emoticons_button_popup_icons_pager.xml -->

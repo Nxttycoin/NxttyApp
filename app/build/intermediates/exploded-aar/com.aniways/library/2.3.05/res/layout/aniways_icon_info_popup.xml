@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.aniways.blur.ContextualBubbleFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/aniways_contextual_popup_frame_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <com.aniways.blur.ContextualBubbleView
+        android:id="@id/aniways_contextual_popup_blured_linear_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center"
+        app:aniways_blur_radius="12"
+        app:aniways_contextual_bubble_color="@color/aniways_contextual_popup_background_color"
+        app:aniways_contextual_bubble_cornerRadius="6dp"
+        app:aniways_contextual_bubble_outlineColor="@color/aniways_contextual_popup_border_color"
+        app:aniways_contextual_bubble_outlineWidth="0.5dp"
+        app:aniways_contextual_bubble_pointerHeight="15dp"
+        app:aniways_contextual_bubble_pointerWidth="15dp" >
+
+        <TextView
+            android:id="@id/aniways_quickaction_tracks"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"     
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textColor="@color/aniways_Black"
+            android:orientation="horizontal" />
+    </com.aniways.blur.ContextualBubbleView>
+
+
+</com.aniways.blur.ContextualBubbleFrameLayout><!-- From: file:/C:/Android/Aniways/Android-SDK/res/layout/aniways_icon_info_popup.xml -->

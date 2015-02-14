@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <padding android:bottom="10dp" android:top="10dp" android:right="10dp" android:left="10dp"/>
+    <solid android:color="@color/aniways_toast_background_color"/>
+    <corners android:radius="@dimen/aniways_asset_toast_corner_radius"/>
+</shape><!-- From: file:/C:/Android/Aniways/Android-SDK/res/drawable/aniways_toast_background.xml -->

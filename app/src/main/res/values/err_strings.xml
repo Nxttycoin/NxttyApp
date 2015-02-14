@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="err_unknown">Something went wrong, please try again</string>
+    
+    <string name="networkIssues">Please check your internet connection!</string>
+    	
+</resources>

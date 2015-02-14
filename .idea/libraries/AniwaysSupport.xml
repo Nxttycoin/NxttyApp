@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="AniwaysSupport">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/AniwaysSupport.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

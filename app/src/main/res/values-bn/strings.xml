@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Nxtty</string>
+    <string name="hello_world">কেমন আছেন সবাই!</string>
+    <string name="action_settings">বিন্যাস</string>
+    <string name="please_wait">দয়া করে অপেক্ষা করুন</string>
+    <string name="enter_email">ইমেইল দিন...</string>
+    <string name="enter_password">পাসওয়ার্ড দিন...</string>
+    <string name="confirm_password">পাসওয়ার্ড নিশ্চিত করুন</string>
+    <string name="city_of_birth">জন্মের শহর...</string>
+    <string name="enter">প্রবেশ করান</string>
+    <string name="yes">হ্যাঁ</string>
+    <string name="no">না</string>
+    <string name="cancel">বাতিল করুন</string>
+    <string name="alias_name">ডাক নাম</string>
+    <string name="subscribe">গ্রহণ করুন</string>
+    <string name="conversations">কথোপকথন</string>
+    <string name="contacts">যোগাযোগ</string>
+    <string name="newsfeed">নিউজফিড</string>
+    <string name="find_users">ব্যবহারকারীদের খুঁজুন</string>
+    <string name="open_chat">চ্যাট খুলুন</string>
+    <string name="wallet">ওয়ালেট</string>
+    <string name="settings">বিন্যাস</string>
+    <string name="discover">আবিষ্কার করুন</string>
+    <string name="user">ব্যবহারকারীঃ</string>
+    <string name="profile_pic">প্রোফাইলের ছবি</string>
+    <string name="city">শহরঃ</string>
+    <!-- <string name="school_univercity">স্কুল/বিশ্ববিদ্যালয়</string> -->
+    <string name="school_univercity">স্কুল</string>
+    <string name="delete_message_after">পরে মেসেজগুলি মুছে ফেলুন</string>
+    <string name="one_min">১ মিনিট</string>
+    <string name="one_hr">১ ঘণ্টা</string>
+    <string name="twntyfour_hr">চব্বিশ ঘণ্টা</string>
+    <string name="seven_days">সাত দিন</string>
+    <string name="thirty_days">ত্রিশ দিন</string>
+    <string name="never">কখনোই না</string>
+    <string name="notification">বিজ্ঞপ্তি</string>
+    <string name="automatic_logout">স্বয়ক্রিংয় লগআউট</string>
+    <string name="gender">লিঙ্গ</string>
+    <string name="text_size">টেক্সটের আকার</string>
+    <string name="status_demo_text">এই যে শুনছেন! আমি Nxtty ব্যবহার করছি</string>
+    <string name="support">সহায়তা</string>
+    <string name="about">সম্বন্ধে</string>
+    <string name="delete">মুছে ফেলুন</string>
+    <string name="edit">সম্পাদনা করুন</string>
+    <string name="block_list">তালিকা আটকান</string>
+    <string name="save_changes">পরিবর্তনগুলো সংরক্ষণ করুন</string>
+    <string name="log_out">লগ আউট</string>
+    <string name="block">আটকান</string>
+    <string name="unblock">খুলে দিন</string>
+    <string name="invite">আমন্ত্রণ জানান</string>
+    <string name="find_user">ব্যবহারকারী খুঁজুন</string>
+    <string name="search_by_username">ব্যবহারকারীর নাম ধরে খুঁজুন</string>
+    <string name="search_by_city">শহর খুঁজুন</string>
+    <string name="search_by_school">স্কুল ধরে খুঁজুন</string>
+    <string name="friend_req">বন্ধুতার অনুরোধ</string>
+    <string name="invites">আমন্ত্রণ</string>
+    <string name="enter_min_charecters">অন্তত ৩টি অক্ষর দিন</string>
+    <string name="open_chat_settings">চ্যাট সেটিংস খুলুন</string>
+    <string name="add_chats">চ্যাট অ্যাড করুন</string>
+    <string name="accept">গ্রহণ করুন</string>
+    <string name="reject">বর্জন করুন</string>
+    <string name="groups">দল</string>
+    <string name="chat">চ্যাট</string>
+    <!-- <string name="tip">বখশিস</string> -->
+    <string name="tip">Tip</string>
+    <string name="report_post">পোস্ট রিপোর্ট করুন</string>
+    <string name="report_user">ব্যবহারকারী সম্বন্ধে রিপোর্ট করুন</string>
+    <string name="hide_post">পোস্ট আড়ালে রাখুন</string>
+    <string name="back">ফিরে যান</string>
+    <string name="tips">বখশিস</string>
+    <string name="add_comment">মন্তব্য দিন</string>
+    <string name="create_post">পোস্ট রচনা করুন</string>
+    <string name="post_title">পোস্টের শিরোনামঃ</string>
+    <string name="post_detail">পোস্টের বিবরণঃ</string>
+    <string name="choose_file">ফাইল বেছে নিন</string>
+    <string name="post">পোস্ট করুন</string>
+    <string name="post_comment">মন্তব্য পোস্ট করুন</string>
+
+    <string-array name="uploadpicoption">
+        <item>ক্যামেরা</item>
+        <item>গ্যালারি</item>
+    </string-array>
+    <string-array name="options_with_default">
+        <item>ক্যামেরা</item>
+        <item>গ্যালারি</item>
+        <item>পূর্বনিহিত ব্যাকগ্রাউন্ড-এ ফিরিয়ে নিন</item>
+    </string-array>
+    <string-array name="share_link_option">
+        <item>খুলুন</item>
+        <item>শেয়ার করুন</item>
+        <item>কপি করুন</item>
+    </string-array>
+
+    <string name="incomingNxttyClTxt">Nxtty ভয়েস কল</string>
+    <string name="outGoingNxttyClTxt"> Nxtty কল ডায়াল হচ্ছে</string>
+    <string name="already_tipped"> আপনি এই পোস্টের জন্য বখশিস দিয়েছেন </string>
+    <string name="already_tipped_success"> আপনি সফলভাবে এই পোস্টের জন্য বখশিস দিয়েছেন </string>
+    <string name="already_tipped_comment">আপনি সফলভাবে এই মন্তব্যর জন্য বখশিস দিয়েছেন</string>
+    <string name="already_tipped_comment_success">আপনি সফলভাবে এই মন্তব্যে বখশিস দিয়েছেন</string>
+    <string name="sure_unblock">আপনি কি আনব্লক করার ব্যাপারে নিশ্চিত</string>
+    <string name="sure_block">আপনি কি ব্লক করার ব্যাপারে নিশ্চিত</string>
+    <string name="sure_delete">আপনি কি মুছে ফেলার ব্যাপারে নিশ্চিত </string>
+    <string name="sure_add">আপনি কি যোগ করার ব্যাপারে নিশ্চিত </string>
+    <string name="sure_unsubscribe">আপনি কি এই গ্রাহকত্ব ছাড়ার ব্যাপারে নিশ্চিত</string>
+    <string name="sure_subscribe">">আপনি কি এই গ্রাহকত্ব নেবার ব্যাপারে নিশ্চিত </string>
+    <string name="sure_report">আপনি কি এই পোস্টের ব্যাপারে অভিযোগ করার ব্যাপারে নিশ্চিত?</string>
+    <string name="sure_report_user">আপনি কি এই ব্যবহারকারীর ব্যাপারে অভিযোগ করার ব্যাপারে নিশ্চিত? string><string name="sure_edit">আপনি কি এই পোস্ট সম্পাদনা ফেলার ব্যাপারে নিশ্চিত? <string><string name="sure_delete_post">আপনি কি এই পোস্ট মুছে ফেলার ব্যাপারে নিশ্চিত? </string><string name="sure_hide_post">আপনি কি এই পোস্ট লুকিয়ে ফেলার ব্যাপারে নিশ্চিত? <string><string name="sure_delete_comment">আপনি কি এই মন্তব্য মুছে ফেলার ব্যাপারে নিশ্চিত?</string><string name="share_with_frnds">বন্ধুদের সাথে শেয়ার করুন</string><string name="hrs_ago">ঘণ্টা আগে</string><string name="min_ago">মিনিট আগে ago</string><string name="unsubscribe">গ্রাহকত্ব বাতিল করুন</string><string name="network_error">দয়া করে আপনার ইন্টারনেট সংযোগ পরীক্ষা করুন।</string><string name="update_success">সফলভাবে আপডেট হয়েছে।</string><string name="add_friends"> দয়া করে বন্ধু যোগ করুন।</string><string name="enter_title"> দয়া করে শিরোনাম যোগ করুন।</string><string name="enter_title_detail">দয়া করে পোস্ট শিরোনাম ও বর্ণনা প্রবেশ করান।</string><string name="enter_details">দয়া করে বর্ণনা প্রবেশ করান।</string><string name="enter_message">দয়া করে বার্তা প্রবেশ করান।</string><string name="enter_comment">দয়া করে মন্তব্য প্রবেশ করান।</string><string name="cant_edit_image">ছবি সম্পাদনা করতে পারছেনা।</string><string name="crop">ছাঁটুন</string><string name="image_invalid">ছবি বৈধ নয়, দয়া করে আরেকটি বাছাই করুন।</string><string name="image_not_found">ছবি পাওয়া যায়নি।</string><string name="remember_me">আমাকে মনে রাখুন</string><string name="do_not_ask_me_again">আমাকে আর জিজ্ঞাসা করবেন না</string><string name="password_backup">দয়া করে আপনার লগ-ইন করার বিস্তারিত লিখে রাখুন ও নিরাপদে সংরক্ষণ করুন, কারণ এখানে কোনো পাসওয়ার্ড ব্যাকাপ নেই।</string></string></string></string></string></string>
+    <string name="comments">মন্তব্য</string>
+
+</resources>

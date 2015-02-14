@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:layout_margin="7dp"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:fillViewport="true"
+        android:isScrollContainer="false" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="10dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/post_comment"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" >
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/txt_create_cancel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/cancel"
+                    android:textColor="#0041C2"
+                    android:visibility="gone"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#837E7C" >
+            </LinearLayout>
+
+            <!--
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp" >
+
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:padding="5dp"
+            android:text="Comment :"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/edit_CreateDetail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/edit_back_large"
+                android:gravity="top"
+                android:padding="5dp"
+                android:textColor="@android:color/black" />
+        </LinearLayout>
+            -->
+
+            <com.aniways.AniwaysVerticalLinearLayout
+                android:id="@+id/chat_activity_root"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingTop="4dip" >
+
+                    <com.aniways.AniwaysEditText
+                        android:id="@+id/edit_CreateDetail"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:cursorVisible="true"
+                        android:fadingEdge="vertical"
+                        android:gravity="top"
+                        android:maxLines="50"
+                        android:imeOptions="actionSend|flagNoEnterAction|flagNoExtractUi"
+                        android:scrollbars="vertical" />
+                    
+                        <!-- android:inputType="textShortMessage|textAutoCorrect|textCapSentences|textMultiLine" -->
+                        
+
+                    <com.aniways.AniwaysEmoticonsOnDemandButton
+                        android:id="@+id/emoticons_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:padding="3dp" />
+                </LinearLayout>
+            </com.aniways.AniwaysVerticalLinearLayout>
+
+            <!-- <LinearLayout -->
+            <!-- android:layout_width="match_parent" -->
+            <!-- android:layout_height="wrap_content" -->
+            <!-- android:layout_gravity="center_vertical" -->
+            <!-- android:layout_margin="10dp" -->
+            <!-- android:orientation="horizontal" > -->
+
+
+            <!-- <LinearLayout -->
+            <!-- android:id="@+id/ln_create_chooseFile" -->
+            <!-- android:layout_width="wrap_content" -->
+            <!-- android:layout_height="wrap_content" -->
+            <!-- android:background="@drawable/btn_back" -->
+            <!-- android:gravity="center" > -->
+
+
+            <!-- <TextView -->
+            <!-- android:id="@+id/txt_file_name" -->
+            <!-- android:layout_width="wrap_content" -->
+            <!-- android:layout_height="wrap_content" -->
+            <!-- android:text="Choose File" -->
+            <!-- android:textColor="@android:color/black" -->
+            <!-- android:textSize="14sp" /> -->
+            <!-- </LinearLayout> -->
+
+
+            <!-- <TextView -->
+            <!-- android:id="@+id/txt_create_attach" -->
+            <!-- android:layout_width="0dp" -->
+            <!-- android:layout_height="wrap_content" -->
+            <!-- android:layout_gravity="center_vertical" -->
+            <!-- android:layout_weight="1" -->
+            <!-- android:gravity="center" -->
+            <!-- android:padding="5dp" -->
+            <!-- android:singleLine="true" -->
+            <!-- android:text="" -->
+            <!-- android:textColor="#0041C2" -->
+            <!-- android:textSize="14sp" /> -->
+            <!-- </LinearLayout> -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:orientation="horizontal"
+                android:weightSum="1" >
+
+                <TextView
+                    android:id="@+id/txt_create_post"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.50"
+                    android:background="@drawable/round_corners_red"
+                    android:gravity="center"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp"
+                    android:text="@string/post"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/txt_cancelBottom"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.50"
+                    android:gravity="center"
+                    android:text="@string/cancel"
+                      android:textColor="@color/red"
+                    android:textSize="18sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

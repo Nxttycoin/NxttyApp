@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/red_off_back"
+    android:focusable="false"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="left"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/logo_trnsp" />
+
+    <LinearLayout
+        android:id="@+id/secondLayerMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:orientation="vertical"
+        android:layout_marginRight="25dp"
+        android:paddingLeft="7dp"
+        android:paddingRight="7dp" >
+
+        <EditText
+            android:id="@+id/edittext_verifycode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_edittext"
+            android:hint="@string/alias_name"
+            android:inputType="text"
+            android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789@."
+            android:maxLines="1"
+            android:paddingBottom="7dp"
+            android:paddingLeft="5dp"
+            android:focusableInTouchMode="true"
+            android:paddingRight="5dp"
+            android:paddingTop="7dp"
+            android:focusable="true"
+            android:textColor="@color/red"
+            android:textColorHint="@color/red"
+            android:textStyle="bold" 
+            android:maxLength="40"
+             android:ems="10"/>
+        
+         <EditText
+            android:id="@+id/edittextReffrealcode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_edittext"
+            android:hint="@string/referal_code"
+            android:layout_marginTop="10dp"
+            android:inputType="text"
+            android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789@."
+            android:maxLines="1"
+            android:paddingBottom="7dp"
+            android:paddingLeft="5dp"
+            android:focusableInTouchMode="true"
+            android:paddingRight="5dp"
+            android:paddingTop="7dp"
+            android:focusable="true"
+            android:textColor="@color/red"
+            android:textColorHint="@color/red"
+            android:textStyle="bold" 
+            android:maxLength="40"
+             android:ems="10"/>
+           
+        <requestFocus />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ln_subscribe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginRight="32dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/round_edittext"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="@string/subscribe"
+            android:textColor="@color/red"
+            android:textSize="20sp"
+            android:textStyle="bold" >
+        </TextView>
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/C:/NXTAPP_Feb_032/app/src/main/res/layout/verify_account.xml -->

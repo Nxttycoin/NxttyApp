@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/aniways_contextual_popup_frame_layout"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <!--aniways.blur.ContextualBubbleView
+        android:id="@+id/aniways_contextual_popup_blured_linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:orientation="vertical"
+        android:paddingBottom="9dp"
+        android:paddingTop="9dp"
+        app:aniways_blur_radius="12"
+        app:aniways_contextual_bubble_color="#aaffffff"
+        app:aniways_contextual_bubble_cornerRadius="15dp"
+        app:aniways_contextual_bubble_outlineColor="#ff000000"
+        app:aniways_contextual_bubble_outlineWidth="0.5dp"
+        app:aniways_contextual_bubble_pointerHeight="15dp"
+        app:aniways_contextual_bubble_pointerWidth="15dp"-->
+
+        <!---->
+
+        <com.aniways.ui.views.AniwaysSlidingLayer xmlns:slidingLayer="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/sliding_layer"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@color/aniways_transparent"
+            slidingLayer:offsetWidth="50dp"
+            slidingLayer:stickTo="bottom">
+
+            <com.aniways.blur.BlurLinearLayout
+                android:id="@+id/aniways_contextual_popup_blured_linear_layout"
+                app:aniways_blur_radius="12"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#caffffff"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <View
+                    android:id="@+id/show_more_icons_up_strip"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/aniways_contextual_popup_border_color"
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:id="@+id/show_more_icons"
+                    android:layout_width="12dp"
+                    android:layout_height="6dp"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:layout_margin="4dp"
+                    android:src="@drawable/aniways_little_chevron"
+                    android:visibility="gone" />
+
+                <View
+                    android:id="@+id/show_more_icons_down_strip"
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/aniways_contextual_popup_border_color"
+                    android:visibility="gone"/>
+
+                <android.support.v7.widget.GridLayout
+                    xmlns:grid="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/aniways_quickaction_tracks"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    grid:layout_gravity="fill_horizontal">
+                </android.support.v7.widget.GridLayout>
+
+                <!--Todo: will add support in grid scroll in the next feature-->
+                <!--<ScrollView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:scrollbars="none">-->
+
+                    <!---->
+
+                <!--</ScrollView>-->
+            </com.aniways.blur.BlurLinearLayout>
+        </com.aniways.ui.views.AniwaysSlidingLayer>
+
+    <!--/com.aniways.blur.ContextualBubbleView-->
+
+</FrameLayout><!-- From: file:/C:/Android/Aniways/Android-SDK/res/layout/aniways_contextual_suggestions_popup.xml -->

@@ -1,0 +1,22 @@
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/txt_raw_title"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/row_text_selector"
+    android:padding="10dp"
+    android:textColor="@android:color/black"
+    android:textSize="20sp" >
+
+    <!--
+    <TextView
+        android:id="@+id/tow_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:textColor="@android:color/black"
+         >
+    </TextView>
+    -->
+
+</TextView>

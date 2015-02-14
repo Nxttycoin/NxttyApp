@@ -1,0 +1,40 @@
+-keep class com.nxtty.main.Application {
+    <init>();
+    void attachBaseContext(android.content.Context);
+}
+-keep class com.nxtty.main.SplashScreen { <init>(); }
+-keep class com.nxtty.main.Verify { <init>(); }
+-keep class com.nxtty.main.Dashboard { <init>(); }
+-keep class com.nxtty.main.MainActivity { <init>(); }
+-keep class com.nxtapp.fragment.FriendsReqActivity { <init>(); }
+-keep class com.nxtapp.fragment.InvitesActivity { <init>(); }
+-keep class com.nxtapp.fragment.BlockListActivity { <init>(); }
+-keep class com.nxtapp.fragment.Chat2Activity { <init>(); }
+-keep class com.nxtty.main.GroupDetailCreatePost { <init>(); }
+-keep class com.nxtty.main.GroupDetailAddComment { <init>(); }
+-keep class com.nxtapp.fragment.TempActivity { <init>(); }
+-keep class eu.janmuller.android.simplecropimage.CropImage { <init>(); }
+-keep class com.nxtapp.fragment.GroupDetailActivity { <init>(); }
+-keep class com.nxtapp.fragment.GroupSettingsActivity { <init>(); }
+-keep class com.nxtapp.fragment.CommentActivity { <init>(); }
+-keep class com.nxtapp.fragment.AddGroup { <init>(); }
+-keep class com.nxtty.main.CallScreenActivity { <init>(); }
+-keep class com.nxtapp.fragment.LeaderBoardActivity { <init>(); }
+-keep class com.nxtty.main.IncomingCallScreenActivity { <init>(); }
+-keep class com.aniways.billing.AniwaysCreditsStoreActivity { <init>(); }
+-keep class com.nxtapp.utils.CropperImageActivity { <init>(); }
+-keep class com.nxtapp.fragment.GroupSearchActivity { <init>(); }
+-keep class com.nxtty.main.GCMIntentService { <init>(); }
+-keep class com.google.android.gcm.GCMBroadcastReceiver { <init>(); }
+-keep class com.nxtty.main.GetNewDataService { <init>(); }
+-keep class com.nxtty.main.ImageViewDisplay { <init>(); }
+-keep class com.aniways.service.AniwaysIntentService { <init>(); }
+-keep class com.aniways.analytics.service.AniwaysAnalyticsService { <init>(); }
+-keep class com.aniways.service.AlarmReceiver { <init>(); }
+-keep class com.aniways.settings.AniwaysSettingsActivity { <init>(); }
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+-keep public class * extends java.lang.annotation.Annotation {
+    *;
+}

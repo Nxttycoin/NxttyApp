@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/widget_frame"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="5dp"
+    android:paddingTop="5dp">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="5dp"
+        android:id="@+id/emoji_seekbar_container"
+        android:weightSum="5">
+
+        <ImageView
+            android:id="@+id/left_seekbar_img"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:src="@drawable/oldschool_smile_240" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/seekBarPrefBarContainer"
+            android:layout_weight="3">
+
+            <SeekBar
+                android:id="@+id/seekBarPrefSeekBar"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/right_seekbar_image"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:src="@drawable/oldschool_smile_240" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/emoticon_size_example_title"
+        android:layout_below="@+id/emoji_seekbar_container"
+        android:text="@string/emoticon_resize_description"
+        android:layout_marginBottom="5dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <ImageView
+        android:id="@+id/emoticon_seek_bar_indication"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginRight="5dp"
+        android:src="@drawable/oldschool_smile_240"
+        android:layout_below="@+id/emoticon_size_example_title"
+        />
+
+</RelativeLayout><!-- From: file:/C:/Android/Aniways/Android-SDK/res/layout/aniways_seek_bar_preference.xml --><!-- From: file:/C:/NXTAPP_Feb_032/app/build/intermediates/exploded-aar/com.aniways/library/2.3.05/res/layout/aniways_seek_bar_preference.xml -->

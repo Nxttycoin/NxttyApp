@@ -1,0 +1,149 @@
+# To enable ProGuard in your project, edit project.properties
+# to define the proguard.config property as described in that file.
+#
+# Add project specific ProGuard rules here.
+# By default, the flags in this file are appended to flags specified
+# in ${sdk.dir}/tools/proguard/proguard-android.txt
+# You can edit the include path and order by changing the ProGuard
+# include property in project.properties.
+#
+# For more details, see
+#   http://developer.android.com/guide/developing/tools/proguard.html
+
+# Add any project specific keep options here:
+
+# If your project uses WebView with JS, uncomment the following
+# and specify the fully qualified class name to the JavaScript interface
+# class:
+#-keepclassmembers class fqcn.of.javascript.interface.for.webview {
+#   public *;
+#}
+
+-dontusemixedcaseclassnames
+-dontskipnonpubliclibraryclasses
+-useuniqueclassmembernames
+-verbose
+
+-dontpreverify
+
+-optimizations !code/simplification/arithmetic,!code/simplification/cast,!field/*,!class/merging/*
+-optimizationpasses 5
+-allowaccessmodification
+
+-keep class com.googlecode.tesseract.android.TessBaseAPI {
+    private int mNativeData;
+}
+-assumenosideeffects class android.util.Log {
+    public static *** d(...);
+    public static *** e(...);
+    public static *** i(...);
+    public static *** v(...);
+    public static *** w(...);
+}
+
+-keepattributes *Annotation*
+-keep public class * extends android.app.Activity
+-keep public class * extends android.app.Application
+-keep public class * extends android.app.Service
+-keep public class * extends android.content.BroadcastReceiver
+-keep public class * extends android.content.ContentProvider
+-keep public class * extends android.app.backup.BackupAgent
+-keep public class * extends android.preference.Preference
+-keep public class * extends android.app.Fragment
+
+# For native methods, see http://proguard.sourceforge.net/manual/examples.html#native
+-keepclasseswithmembernames class * {
+    native <methods>;
+}
+
+-keep public class * extends android.view.View {
+    public <init>(android.content.Context);
+    public <init>(android.content.Context, android.util.AttributeSet);
+    public <init>(android.content.Context, android.util.AttributeSet, int);
+    public void set*(...);
+}
+
+-keepclasseswithmembers class * {
+    public <init>(android.content.Context, android.util.AttributeSet);
+}
+
+-keepclasseswithmembers class * {
+    public <init>(android.content.Context, android.util.AttributeSet, int);
+}
+
+-keepclassmembers class * extends android.app.Activity {
+   public void *(android.view.View);
+}
+
+# For enumeration classes, see http://proguard.sourceforge.net/manual/examples.html#enumerations
+-keepclassmembers enum * {
+    public static **[] values();
+    public static ** valueOf(java.lang.String);
+}
+
+-keep class * implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator *;
+}
+
+-keepclassmembers class **.R$* {
+    public static <fields>;
+}
+
+# The support library contains references to newer platform versions.
+# Don't warn about those in case this app is linking against an older
+# platform version.  We know about them, and they are safe.
+-dontwarn android.support.**
+
+-keep class com.flurry.** { *; }
+-dontwarn com.flurry.**
+
+-dontwarn org.apache.commons.**
+-dontwarn org.apache.**
+
+-keep class com.sinch.android.rtc.** {*;}
+-keep class com.rebtel.repackaged.com.google.** {*;}
+-keep class  org.webrtc.** { *; }
+
+##---------------Begin: proguard configuration for Aniways ----------
+
+# Gson uses generic type information stored in a class file when working with
+
+#fields. Proguard removes such information by default, so configure it to keep
+
+#all of it.
+
+-keepattributes Signature
+
+
+
+
+# For using GSON @Expose annotation
+
+-keepattributes *Annotation*
+
+
+
+
+# Gson specific classes
+
+##-keep class sun.misc.Unsafe *;
+
+-keep class aniways.com.google.gson.** {*;}
+
+
+
+
+# Application classes that will be serialized  deserialized over Gson
+
+-keep class com.aniways.data.KeywordsFile** {*;}
+
+-keep class com.aniways.data.AniwaysPrivateConfig** {*;}
+
+#-keep class android.support.v8.renderscript.** {*;}
+
+-keep class aniways.android.support.v4.** {*;}
+
+-keep class com.aniways.** {*;}
+
+##---------------End: proguard configuration for Aniways ----------
+

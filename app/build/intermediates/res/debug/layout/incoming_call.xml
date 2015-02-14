@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.nxtty.main"
+    android:id="@+id/ln_callMainBG"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/incoming_call_bg"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <!-- <ImageView -->
+            <!-- android:layout_width="wrap_content" -->
+            <!-- android:layout_height="wrap_content" -->
+            <!-- android:layout_gravity="left" -->
+            <!-- android:layout_marginTop="20dp" -->
+            <!-- android:background="@drawable/incoming_call_logo" -->
+            <!-- android:contentDescription="@null" /> -->
+
+            <ImageView
+                android:id="@+id/ivProfilePic"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_marginTop="30dp" />
+        </LinearLayout>
+        <!-- android:background="@color/profile_image_bg" -->
+
+        <TextView
+            android:id="@+id/incomingClPhnNum"
+            style="@style/incomingClPhnNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text=""
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_gravity="left|bottom"
+            android:layout_weight="1"
+            android:gravity="bottom"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/incomingClUser"
+                style="@style/incomingClUser"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginRight="7dp"
+                android:layout_marginTop="15dp"
+                android:text="" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/incoming_call_voice_cl_bg"
+                android:gravity="right" >
+
+                <com.nxtapp.utils.AutoResizeTextView
+                    android:id="@+id/txtIncomingNxttyCl"
+                    style="@style/incomingClTxt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="8dp"
+                    android:ellipsize="none"
+                    android:gravity="center"
+                    android:text="@string/incomingNxttyClTxt" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bottomPanel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/incoming_call_bottom_bg"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/answerButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/green_call"
+            android:contentDescription="@null" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+        </LinearLayout>
+
+        <!-- <ImageButton -->
+        <!-- android:layout_width="wrap_content" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- android:layout_marginBottom="10dp" -->
+        <!-- android:visibility="invisible" -->
+        <!-- android:background="@drawable/incoming_call_green_dial_arrow" -->
+        <!-- android:contentDescription="@null" /> -->
+
+
+        <!-- <ImageButton -->
+        <!-- android:layout_width="wrap_content" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- android:layout_marginLeft="10dp" -->
+        <!-- android:layout_marginTop="10dp" -->
+        <!-- android:visibility="invisible" -->
+        <!-- android:background="@drawable/incoming_call_red_dial_arrow" -->
+        <!-- android:contentDescription="@null" /> -->
+
+        <ImageButton
+            android:id="@+id/declineButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/red_call"
+            android:contentDescription="@null" />
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/C:/NXTAPP_Feb_032/app/src/main/res/layout/incoming_call.xml -->

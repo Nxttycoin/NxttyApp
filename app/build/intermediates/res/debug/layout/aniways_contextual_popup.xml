@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:layout_gravity="bottom">
+    <android.support.v4.view.ViewPager
+        android:id="@+id/aniways_contextual_popup"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_gravity="bottom"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/aniways_contextual_card_stroke_height"
+        android:background="@color/aniways_contextual_asset_card_bottom_stroke_color"
+        android:layout_gravity="bottom"/>
+</FrameLayout><!-- From: file:/C:/Android/Aniways/Android-SDK/res/layout/aniways_contextual_popup.xml --><!-- From: file:/C:/NXTAPP_Feb_032/app/build/intermediates/exploded-aar/com.aniways/library/2.3.05/res/layout/aniways_contextual_popup.xml -->

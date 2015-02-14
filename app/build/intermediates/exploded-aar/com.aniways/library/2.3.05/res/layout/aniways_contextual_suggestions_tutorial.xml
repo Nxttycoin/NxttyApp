@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.aniways.AniwaysTutorialView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tutorial_view"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#C0000000"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/aniways_tutorial_close_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="5dp"
+        
+        android:background="@drawable/aniways_tutorial_x" />
+
+    <ImageView
+        android:id="@+id/aniways_tutorial_instructions_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+            android:id="@+id/aniways_tutorail_settings_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="45dp" 
+            android:gravity="right"
+            android:layout_marginRight="6dp"
+            android:text="@string/aniways_tutorial_settings_text"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/aniways_White" />
+</com.aniways.AniwaysTutorialView><!-- From: file:/C:/Android/Aniways/Android-SDK/res/layout/aniways_contextual_suggestions_tutorial.xml -->

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.aniways.ui.views.ContextualAssetView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/aniways_contextual_asset_view_root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.aniways.ui.views.AniwaysSlidingLayer xmlns:slidingLayer="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/aniways_contextual_asset_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        slidingLayer:offsetWidth="@dimen/aniways_contextual_card_min_height"
+        slidingLayer:stickTo="bottom">
+
+        <LinearLayout
+            android:id="@+id/aniways_contextual_card_holder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/aniways_contextual_card_view"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/aniways_contextual_card_right_margin_width"
+                android:layout_marginRight="@dimen/aniways_contextual_card_right_margin_width"
+                android:layout_weight="1"
+                slidingLayer:cardUseCompatPadding="false">
+
+                <RelativeLayout
+                    android:id="@+id/aniways_contextual_card_background"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:baselineAligned="false"
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+                        android:id="@+id/aniways_contextual_card_content_holder"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:minHeight="@dimen/aniways_contextual_card_min_height"
+                        android:paddingRight="0dp"
+                        android:paddingEnd="0dp"/>
+
+                    <FrameLayout
+                        android:id="@+id/aniways_contextual_card_icon_container"
+                        android:layout_width="@dimen/aniways_contextual_card_icon_holder_width"
+                        android:layout_height="@dimen/aniways_contextual_card_min_height"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentTop="true"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:id="@+id/aniways_contextual_card_icon"
+                            android:layout_width="@dimen/aniways_contextual_card_icon_size"
+                            android:layout_height="@dimen/aniways_contextual_card_icon_size"
+                            android:layout_gravity="center"
+                            android:contentDescription="@string/aniways_contextual_asset_card_icon_description"/>
+                    </FrameLayout>
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <View
+                android:id="@+id/aniways_contextual_card_right_spacer"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/aniways_contextual_card_min_height" />
+        </LinearLayout>
+    </com.aniways.ui.views.AniwaysSlidingLayer>
+</com.aniways.ui.views.ContextualAssetView><!-- From: file:/C:/Android/Aniways/Android-SDK/res/layout/aniways_contextual_card.xml --><!-- From: file:/C:/NXTAPP_Feb_032/app/build/intermediates/exploded-aar/com.aniways/library/2.3.05/res/layout/aniways_contextual_card.xml -->

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="profile_image_bg">#AAAAAA</color>
+    <color name="red">#F40009</color>
+    <color name="sinch_purple">#ff63029d</color>
+    <color name="off_white">#fffafafa</color>
+    <color name="greyish">#fff2f1f2</color>
+    <color name="light_grey">#8E8C8D</color>
+    <color name="white">#ffffff</color>
+    <color name="off_grey">#EEEEEE</color>
+    <color name="grey_text">#A1A1A1</color>
+    
+
+</resources>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.nxtty.main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/off_grey" >
+
+    <LinearLayout
+        android:id="@+id/wrapper_newsfeedlist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/round_corners_white_list"
+        android:orientation="vertical"
+        android:padding="3dp" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <RelativeLayout
+                android:id="@+id/leftside_newsfeedlist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp"
+                android:layout_marginTop="7dp" >
+
+                <ImageView
+                    android:id="@+id/imageview_newsfeedlist_item"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/logo_app_icon"
+                     />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/center_newsfeedlist"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/leftside_newsfeedlist" >
+
+                <com.nextapp.fonts.GothicLTMedium
+                    android:id="@+id/textview_newsfeedname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:text=""
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <com.nextapp.fonts.GothicLTMedium
+                    android:id="@+id/textview_newsfeedtime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textview_newsfeedname"
+                    android:text=""
+                    android:textColor="#A5A5A5" />
+
+                <com.nextapp.fonts.GothicLTMedium
+                    android:id="@+id/textview_newsfeedstatus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textview_newsfeedtime"
+                    android:text=""
+                    android:textColor="#A5A5A5" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/iv_newsfeedstatus"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_below="@+id/textview_newsfeedtime"
+            android:layout_gravity="center" />
+    </LinearLayout>
+
+</RelativeLayout>

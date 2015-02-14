@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/NXTAPP_Feb_032/app/src/main/res/values-xxhdpi/dimens.xml -->
+    <eat-comment/>
+    <dimen name="auto_fit_text_size">12sp</dimen>
+    <dimen name="inClCallDuration">65sp</dimen>
+    <dimen name="inClSpeakerMuteBtnBg">280px</dimen>
+    <dimen name="incomingCallTxt">17sp</dimen>
+    <dimen name="incomingCallUser">27sp</dimen>
+    <dimen name="incomingClPhnNum">21sp</dimen>
+    <dimen name="incomingClProfPic">140dp</dimen>
+    <dimen name="mid_text_size">17sp</dimen>
+</resources>

@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              style="@style/Aniways.StyledIndicators"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/aniways_IconsBackground"
+              android:gravity="center"
+              android:orientation="vertical" >
+
+    <com.aniways.emoticons.button.NonScrollingViewPager
+        android:id="@+id/aniways_ebp_icon_categories_pager"
+        style="@style/Aniways.StyledIndicators"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"/>
+
+    <LinearLayout
+        android:id="@+id/aniways_ebp_icon_categories_pager_indicator_holder"
+        style="@style/Aniways.StyledIndicators"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="0">
+
+        <com.aniways.viewpagerindicator.TabPageIndicator
+            android:id="@+id/aniways_ebp_icon_categories_pager_indicator"
+            style="@style/Aniways.StyledIndicators"
+            android:layout_width="0dp"
+            android:background="@color/aniways_CategoriesBackground"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="0dp"
+            android:padding="0dip" />
+
+        <LinearLayout
+            android:layout_width="45dp"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:background="@drawable/aniways_ebp_backspace_background">
+            <ImageView
+                android:id="@+id/aniways_ebp_backspace_button"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:scaleType="centerInside"
+                android:background="@drawable/aniways_ebp_backspace_background"
+                android:src="@drawable/aniways_ebp_backspace_button"
+                android:padding="10dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/C:/Android/Aniways/Android-SDK/res/layout/aniways_emoticons_button_popup_icon_categories_pager.xml --><!-- From: file:/C:/NXTAPP_Feb_032/app/build/intermediates/exploded-aar/com.aniways/library/2.3.05/res/layout/aniways_emoticons_button_popup_icon_categories_pager.xml -->

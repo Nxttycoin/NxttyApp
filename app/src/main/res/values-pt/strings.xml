@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?><resources>
+
+    <string name="app_name">Nxtty</string>
+    <string name="hello_world">Olá, mundo!</string>
+    <string name="action_settings">Configurações</string>
+    <string name="please_wait">Por favor, aguarde</string>
+    <string name="enter_email">Digite o e-mail...</string>
+    <string name="enter_password">Digite a senha...</string>
+    <string name="confirm_password">Confirme a senha...</string>
+    <string name="city_of_birth">Local de nascimento</string>
+    <string name="enter">Digite</string>
+    <string name="yes">Sim</string>
+    <string name="no">Não</string>
+    <string name="cancel">Cancelar</string>
+    <string name="alias_name">Apelido</string>
+    <string name="subscribe">Cadastrar-se</string>
+    <string name="conversations">Conversas</string>
+    <string name="contacts">Contatos</string>
+    <string name="newsfeed">Feed de notícias</string>
+    <string name="find_users">Encontrar usuários</string>
+    <string name="open_chat">Bate-papo aberto</string>
+    <string name="wallet">Carteira</string>
+    <string name="settings">Configurações</string>
+    <string name="discover">Descubra</string>
+    <string name="user">Usuário:</string>
+    <string name="profile_pic">Foto do Perfil</string>
+    <string name="city">Cidade:</string>
+    <!-- <string name="school_univercity">Escola/Universidade:</string> -->
+    <string name="school_univercity">Escola:</string>
+    <string name="delete_message_after">Excluir mensagens após</string>
+    <string name="one_min">1 minuto</string>
+    <string name="one_hr">1 hora</string>
+    <string name="twntyfour_hr">24 horas</string>
+    <string name="seven_days">7 dias</string>
+    <string name="thirty_days">30 dias</string>
+    <string name="never">Nunca</string>
+    <string name="notification">Notificação</string>
+    <string name="automatic_logout">Logout automático</string>
+    <string name="gender">Sexo</string>
+    <string name="text_size">Tamanho do texto</string>
+    <string name="status_demo_text">Oi, gente! Estou usando o Nxtty</string>
+    <string name="support">Suporte</string>
+    <string name="about">Sobre</string>
+    <string name="delete">Excluir</string>
+    <string name="edit">Editar</string>
+    <string name="block_list">Lista de bloqueios</string>
+    <string name="save_changes">Salvar alterações</string>
+    <string name="log_out">Encerrar sessão</string>
+    <string name="block">Bloquear</string>
+    <string name="unblock">Desbloquear</string>
+    <string name="invite">Convidar</string>
+    <string name="find_user">Localizar usuário</string>
+    <string name="search_by_username">Pesquisar por nome de usuário</string>
+    <string name="search_by_city">Pesquisar por cidade</string>
+    <string name="search_by_school">Pesquisar por escola</string>
+    <string name="friend_req">Pedidos de amizade</string>
+    <string name="invites">Convites</string>
+    <string name="enter_min_charecters">Digite pelo menos 3 caracteres</string>
+    <string name="open_chat_settings">Configurações de bate-papo aberto</string>
+    <string name="add_chats">Adicionar bate-papos</string>
+    <string name="accept">Aceitar</string>
+    <string name="reject">Rejeitar</string>
+    <string name="groups">Grupos</string>
+    <string name="chat">Bate-papo</string>
+    <!-- <string name="tip">Dica</string> -->
+    <string name="tip">Tip</string>
+    <string name="report_post">Denunciar post</string>
+    <string name="report_user">Denunciar usuário</string>
+    <string name="hide_post">Ocultar post</string>
+    <string name="back">Voltar</string>
+    <string name="tips">Dicas</string>
+    <string name="add_comment">Adicionar comentário</string>
+    <string name="create_post">Criar post</string>
+    <string name="post_title">Título do post:</string>
+    <string name="post_detail">Detalhes do post:</string>
+    <string name="choose_file">Escolher arquivo</string>
+    <string name="post">Postar</string>
+    <string name="post_comment">Postar comentário</string>
+
+    <string-array name="uploadpicoption">
+        <item>Câmera</item>
+        <item>Galeria</item>
+    </string-array>
+    <string-array name="options_with_default">
+        <item>Câmera</item>
+        <item>Galeria</item>
+        <item>Restaurar fundo padrão</item>
+    </string-array>
+    <string-array name="share_link_option">
+        <item>Abrir</item>
+        <item>Compartilhar</item>
+        <item>Copiar</item>
+    </string-array>
+
+    <string name="incomingNxttyClTxt">Recebendo Chamada de voz Nxtty</string>
+    <string name="outGoingNxttyClTxt">Discando chamada Nxtty</string>
+    <string name="already_tipped">Você já deu dica para este post.</string>
+    <string name="already_tipped_success">Você já deu dica para este post com sucesso.</string>
+    <string name="already_tipped_comment">Você já deu dica para este comentário.</string>
+    <string name="already_tipped_comment_success">Você já deu dica para este comentário com sucesso.</string>
+    <string name="sure_unblock">Tem certeza que deseja desbloquear? </string>
+    <string name="sure_block">Tem certeza que deseja bloquear? </string>
+    <string name="sure_delete">Tem certeza que deseja excluir? </string>
+    <string name="sure_add">Tem certeza que deseja adicionar? </string>
+    <string name="sure_unsubscribe">Tem certeza que deseja se descadastrar?</string>
+    <string name="sure_subscribe">Tem certeza que deseja se cadastrar? </string>
+    <string name="sure_report">Tem certeza que deseja denunciar este post?</string>
+    <string name="sure_report_user">Tem certeza que deseja denunciar este usuário?</string>
+    <string name="sure_edit">Tem certeza que deseja editar este post?</string>
+    <string name="sure_delete_post">Tem certeza que deseja excluir este post?</string>
+    <string name="sure_hide_post">Tem certeza que deseja ocultar este post?</string>
+    <string name="sure_delete_comment">Tem certeza que deseja excluir este comentário?</string>
+    <string name="share_with_frnds">Compartilhar com amigos</string>
+    <string name="hrs_ago">Horas atrás</string>
+    <string name="min_ago">Minuto(s) atrás</string>
+    <string name="unsubscribe">Descadastrar</string>
+    <string name="network_error">Por favor, verifique sua conexão com a internet.</string>
+    <string name="update_success">Atualizado com sucesso</string>
+    <string name="add_friends">Adicione amigos</string>
+    <string name="enter_title">Insira um título</string>
+    <string name="enter_title_detail">Insira o título e os detalhes da postagem</string>
+    <string name="enter_details">Insira os detalhes</string>
+    <string name="enter_message">Insira uma mensagem</string>
+    <string name="enter_comment">Insira um comentário</string>
+    <string name="cant_edit_image">Não é possível editar a imagem</string>
+    <string name="crop">Cortar</string>
+    <string name="image_invalid">A imagem não é válida. Por favor, escolha outra.</string>
+    <string name="image_not_found">Não encontramos a imagem.</string>
+    <string name="remember_me">Lembre-me</string>
+    <string name="do_not_ask_me_again">Não me pergunte novamente</string>
+    <string name="password_backup">Anote os seus dados de login e guarde-os bem, pois não há backup para a senha.</string>
+    <string name="comments">comentários</string>
+
+<!-- <string name="network_error">Por favor, verifique sua conexão com a internet.</string>
+    <string name="update_success">Atualizado com sucesso</string>
+    <string name="add_friends">Por favor, adicione amigos</string>
+    <string name="enter_title">Por favor, insira o título</string>
+    <string name="enter_title_detail">Por favor, insira o título e os detalhes do post</string>
+    <string name="enter_details">Por favor, insira os detalhes</string>
+    <string name="enter_message">Por favor, insira a mensagem</string>
+    <string name="enter_comment">Por favor, insira o comentário</string>
+    <string name="cant_edit_image">Não é possível editar a imagem</string>
+    <string name="crop">Cortar</string>
+    <string name="image_invalid">Esta imagem não é válida, por favor, escolha outra.</string>
+    <string name="image_not_found">Imagem não encontrada.</string>
+    <string name="remember_me">Lembre-me</string>
+    <string name="do_not_ask_me_again">Não me pergunte novamente</string>
+    <string name="password_backup">Por favor, anote e guarde os dados de seu login em um local seguro, pois não há cópia de segurança da senha.</string>
+    <string name="pop_up_text_support">Por favor, tente novamente</string>
+    <string name="comments">Comentários</string> -->
+
+    <string name="leader_board">Placar</string>
+    <string name="Search_group_text">Procurar por apelido</string>
+    <string name="search_instuction">Selecione um grupo</string>
+    <string name="search_instuction_edit_text">Por favor, insira a palavra-chave da busca</string>
+    <string name="group_search">Busca por Grupo</string>
+
+    <string name="reaction">Reações</string>
+    <!-- <string name="ok">Ok</string> -->
+    <string name="avtar_use">Usar avatar no chat aberto</string>
+    <string name="private_chat">Chat privado</string>
+    <string name="add_topic">Adicionar Tópico</string>
+    <string name="topic_name">Nome do Tópico</string>
+    <string name="topic_description">Descrição do Tópico</string>
+    <string name="topic_category">Selecione a Categoria do Tópico</string>
+    <string name="save">Salvar</string>
+
+     <string name="changeBg">Mudar Fundo</string>
+    <string name="referal_code">Código de Indicação (opcional)</string>
+    <string name="profile_pic_desc">(Avatares não são criptografados)</string>
+    <string name="invites_sent">Convites enviados</string>
+    <string name="invites_received">Convites recebidos</string>
+    <string name="cancelUpdate">Deseja cancelar a atualização?</string>
+    <string name="code_no_longer">Este código de indicação não é válido ou já expirou.</string>
+    <string name="code_incorrect">Por favor, insira o código de indicação válido.</string>
+    <string name="code_incorrect_"> Por favor, insira o código de indicação válido.</string>
+    <string name="write_story">Escrever uma história...</string>
+    <string name="save_image_sdcard">Salvar imagem no cartão de memória? </string>
+    <string name="write_comment">Escreva um comentário...</string>
+
+
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="0.5dp"
+    >
+    <TextView
+        android:id="@+id/setting_language_row_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true"
+        android:layout_margin="15dp"
+        android:text="Name" />
+    <CheckBox
+        android:id="@+id/setting_language_row_checkbox"
+        android:layout_alignParentRight="true"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_margin="15dp"
+        android:layout_centerInParent="true"/>
+</RelativeLayout><!-- From: file:/C:/Android/Aniways/Android-SDK/res/layout/aniways_setting_language_row.xml -->

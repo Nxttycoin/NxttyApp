@@ -1,0 +1,27 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal|center_vertical"
+    android:background="@drawable/aniways_ebp_emoticon_indicator"
+    android:gravity="center_horizontal|center_vertical" >
+
+    <com.aniways.volley.toolbox.NetworkImageView
+        android:id="@+id/aniways_ebp_emoticons_item_emoticon"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center|center_vertical"
+        android:gravity="center"
+        android:scaleType="fitCenter" />
+    
+    <ImageView
+            android:id="@+id/aniways_ebp_emoticons_item_locked_icon"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="top|right"
+            android:gravity="center"
+            android:scaleType="centerInside"
+            android:visibility="gone"
+            android:src="@drawable/aniways_locked_icon" />
+
+</FrameLayout><!-- From: file:/C:/Android/Aniways/Android-SDK/res/layout/aniways_emoticons_button_popup_emoticon_item.xml --><!-- From: file:/C:/NXTAPP_Feb_032/app/build/intermediates/exploded-aar/com.aniways/library/2.3.05/res/layout/aniways_emoticons_button_popup_emoticon_item.xml -->
